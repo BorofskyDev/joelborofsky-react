@@ -1,4 +1,4 @@
-import styles from '../../styles/layout/Banner.module.scss'
+import styles from '../../../styles/layout/Banner.module.scss'
 
 function Banner() {
   return (

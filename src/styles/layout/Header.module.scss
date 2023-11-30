@@ -1,8 +1,12 @@
 .header {
+    position: relative;
+    // top: 0;
+    // left: 0;
     height: 4em;
     width: 100%;
     padding: 0.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: var(--border-300);
 }

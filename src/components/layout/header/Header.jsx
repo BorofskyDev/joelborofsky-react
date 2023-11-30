@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import Banner from './Banner'
-import MobileMenuToggle from '../buttons/MobileMenuToggle'
-import styles from '../../styles/layout/Header.module.scss'
+import MobileMenuToggle from '../../buttons/MobileMenuToggle'
+import styles from '../../../styles/layout/Header.module.scss'
+import MobileNavMenu from './MobileNavMenu'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -16,6 +18,7 @@ function Header() {
         isMenuOpen={isMenuOpen}
         handleMenuToggle={handleMenuToggle}
       />
+      <MobileNavMenu />
     </header>
   )
 }
