@@ -1,6 +1,8 @@
 .banner {
     height: 100%;
-    width: 75%;
+    align-self: flex-start;
+    // width: 75%;
     font-size: var(--fs-500);
+
     // border-bottom: var(--border-200);
 }

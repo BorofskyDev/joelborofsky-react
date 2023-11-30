@@ -1,6 +1,6 @@
 @mixin respond($breakpoint) {
     @if $breakpoint == tab {
-        @media (min-width: 61.5em) {
+        @media (min-width: 48em) {
             @content;
         }
     }

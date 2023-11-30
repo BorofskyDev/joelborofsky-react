@@ -1,53 +1,30 @@
 @use '../../utils/mixins' as mixin;
 
 .menuToggle {
+  
   position: relative;
   height: 2em;
-  width: 15%;
+  width: 2.5em;
   padding: 0;
   background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   cursor: pointer;
   border: none;
-  @include mixin.transitionMain;
 
   @include mixin.respond(tab) {
     display: none;
   }
 
   & span {
+    position: absolute;
     height: 0.15em;
-    width: 1.875em;
+    width: 100%;
     display: block;
     background-color: hsl(var(--color-dark));
 
-    &:nth-child(1) {
-      transform: rotate(0) translateY(0);
-    }
-
-    &:nth-child(2) {
-      opacity: 1;
-      transform: translateX(0);
-    }
-
-    &:nth-child(3) {
-      transform: rotate(0) translateY(0);
-    }
-
-    &.opened {
-      &:nth-of-type(1) {
-        transform: rotate(45deg) translate(0, 0.95em);
-      }
-
-      &:nth-of-type(2) {
-        opacity: 0;
-        transform: translateX(-2.875em);
-      }
-      &:nth-child(3) {
-        transform: rotate(-45deg) translate(0, -0.95em);
-      }
-    }
+   
   }
 }

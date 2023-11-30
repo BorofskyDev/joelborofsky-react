@@ -10,7 +10,17 @@ const menuVariants = {
       opacity: { duration: 0.2 },
     },
   },
+  closed: {
+    x: 500,
+    transition: {
+      x: { type: 'backInOut', stiffness: 1000, damping: 20 },
+      opacity: { duration: 0.3 },
+    },
+  },
 }
+
+
+
 
 function MobileNavMenu() {
   return (

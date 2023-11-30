@@ -18,7 +18,14 @@ function Header() {
         isMenuOpen={isMenuOpen}
         handleMenuToggle={handleMenuToggle}
       />
-      <MobileNavMenu />
+
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div initial='closed' animate='open' exit='closed'>
+            <MobileNavMenu />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   )
 }
