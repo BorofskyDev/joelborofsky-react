@@ -1,9 +1,12 @@
 @use '../../utils/mixins/' as mixin;
 
 :root {
-    --font-title: 'Playfair Display', serif;;
+  // Font families
+  --font-title: 'Playfair Display', serif;
   --font-content: 'Inter', sans-serif;
   --font-link: 'Inconsolata', monospace;
+
+  // Font sizes
 
   --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
   --fs-800: 3.5rem;
@@ -29,4 +32,12 @@
     --fs-500: 1.75rem;
     --fs-400: 1.125rem;
   }
+
+  // Font weights
+
+  --fw-medium: 500;
+  --fw-medium-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --fw-black: 900;
 }

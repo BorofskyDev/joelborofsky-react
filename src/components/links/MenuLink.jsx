@@ -1,8 +1,8 @@
 import styles from '../../styles/components/links/MenuLink.module.scss'
 
-function MenuLink({children}) {
+function MenuLink({children, ...props}) {
   return (
-    <a href="#" className={styles.menuLink}>{children}</a>
+    <a {...props} className={styles.menuLink}>{children}</a>
   )
 }
 export default MenuLink
