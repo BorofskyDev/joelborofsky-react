@@ -1,11 +1,11 @@
+import Banner from './components/layout/Banner'
+import Header from './components/layout/Header'
 
 function App() {
-
-
   return (
     <>
-    <h1>Howdy MuthaFucka</h1>
-       </>
+      <Header />
+    </>
   )
 }
 
