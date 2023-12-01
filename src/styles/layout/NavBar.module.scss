@@ -1,0 +1,26 @@
+@use '../utils/mixins' as mixin;
+
+.navBar {
+  display: none;
+
+  @include mixin.transitionMain;
+
+  @include mixin.respond(tab) {
+    position: fixed;
+    top: 6em;
+    left: 0;
+    height: 5em;
+    width: 100vw;
+    display: block;
+    padding: 2em 3em;
+    z-index: 9000 !important; //This is for the developer
+
+    & ul {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

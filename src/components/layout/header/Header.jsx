@@ -4,6 +4,7 @@ import Banner from './Banner'
 import MobileMenuToggle from '../../buttons/MobileMenuToggle'
 import styles from '../../../styles/layout/Header.module.scss'
 import MobileNavMenu from './MobileNavMenu'
+import NavBar from './NavBar'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,6 +27,8 @@ function Header() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <NavBar />
     </header>
   )
 }
