@@ -1,8 +1,10 @@
 import styles from '../../../styles/layout/containers/LargeContainer.module.scss'
 
-function LargeContainer({children}) {
+function LargeContainer({children, className}) {
+  const containerClasses = `${styles.largeContainer} ${className || ''}`
+
   return (
-    <div className={styles.largeContainer}>{children}</div>
+    <div className={containerClasses}>{children}</div>
   )
 }
 export default LargeContainer
