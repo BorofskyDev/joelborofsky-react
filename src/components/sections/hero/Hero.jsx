@@ -1,6 +1,11 @@
+import styles from '../../../styles/components/sections/hero/Hero.module.scss'
+import HeroIntro from './intro/HeroIntro'
+
 function Hero() {
   return (
-    <div>Hero</div>
+    <section className={styles.hero} >
+      <HeroIntro />
+    </section>
   )
 }
 export default Hero
