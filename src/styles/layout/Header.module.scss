@@ -5,9 +5,8 @@
   height: 4em;
   width: 100vw;
   display: grid;
-  padding: 0.5em;
-  grid-template-columns: 3fr 1fr; 
-  place-items: center;
+  padding: 0.5em 2em;
+  grid-template-columns: 3fr 1fr;
   border-bottom: var(--border-300);
   
 
@@ -15,7 +14,7 @@
     height: 6em;
     grid-template-colums: 1fr;
     place-content: center;
-    padding: 0;
+    // padding: 0 2em;
   }
 
 }
