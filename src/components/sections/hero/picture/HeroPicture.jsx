@@ -2,6 +2,8 @@ import styles from '../../../../styles/components/sections/hero/HeroPicture.modu
 import ImageContainer from '../../../layout/containers/ImageContainer'
 import heroPicture from '../../../../assets/img/profile/joel-kid-1.jpg'
 import JPGImage from '../../../layout/images/JPGImage'
+import sunflower from '../../../../assets/icons/navigation/sunflower.svg'
+
 
 function HeroPicture() {
   return (
@@ -11,6 +13,7 @@ function HeroPicture() {
           src={heroPicture}
           alt='Joel Borofsky around the age of 7 or 8 in a school photo'
         />
+        
       </ImageContainer>
     </div>
   )
