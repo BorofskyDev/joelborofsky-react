@@ -1,3 +1,9 @@
 .smallIcon {
-    
+    position: absolute;
+    height: 3em;
+    width: 3em;
+    border: var(--border-300);
+    border-radius: var(--br-900);
+    padding: 0.4em;
+    box-shadow: var(--box-shadow-300);
 }

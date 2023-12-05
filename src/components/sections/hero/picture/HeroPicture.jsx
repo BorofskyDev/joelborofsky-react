@@ -2,7 +2,7 @@ import styles from '../../../../styles/components/sections/hero/HeroPicture.modu
 import ImageContainer from '../../../layout/containers/ImageContainer'
 import heroPicture from '../../../../assets/img/profile/joel-kid-1.jpg'
 import JPGImage from '../../../images/JPGImage'
-import sunflower from '../../../../assets/icons/navigation/astronaut.svg'
+import astronaut from '../../../../assets/icons/navigation/astronaut.svg'
 import SmallIcon from '../../../icons/SmallIcon'
 
 function HeroPicture() {
@@ -13,8 +13,10 @@ function HeroPicture() {
           src={heroPicture}
           alt='Joel Borofsky around the age of 7 or 8 in a school photo'
         />
+        {/* <SmallIcon src={astronaut} className='icon1 bg4 fill1' /> */}
+        {/* {astronaut && <SmallIcon src={astronaut} className='icon1 bg4 fill1' /> */}
+        <div className=''>{astronaut}</div>
       </ImageContainer>
-      <SmallIcon ><img src={sunflower} /></SmallIcon>
     </div>
   )
 }
