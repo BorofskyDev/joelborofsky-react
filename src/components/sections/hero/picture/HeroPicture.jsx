@@ -2,7 +2,8 @@ import styles from '../../../../styles/components/sections/hero/HeroPicture.modu
 import ImageContainer from '../../../layout/containers/ImageContainer'
 import heroPicture from '../../../../assets/img/profile/joel-kid-1.jpg'
 import JPGImage from '../../../images/JPGImage'
-import{ ReactComponent as AstronautIcon} from '../../../../assets/icons/navigation/astronaut.svg'
+import { ReactComponent as AstronautIcon } from '../../../../assets/icons/navigation/astronaut.svg'
+import { ReactComponent as SunflowerIcon } from '../../../../assets/icons/navigation/sunflower.svg'
 import SmallIcon from '../../../icons/SmallIcon'
 
 function HeroPicture() {
@@ -13,9 +14,11 @@ function HeroPicture() {
           src={heroPicture}
           alt='Joel Borofsky around the age of 7 or 8 in a school photo'
         />
-      
         <SmallIcon className='icon1 bg6 fill5'>
           <AstronautIcon />
+        </SmallIcon>
+        <SmallIcon className='icon2 bg4 fill1'>
+          <SunflowerIcon />
         </SmallIcon>
       </ImageContainer>
     </div>
