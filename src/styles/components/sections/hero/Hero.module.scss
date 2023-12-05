@@ -1,9 +1,8 @@
 .hero {
-height: 100%;
+height: calc(100vh - 4em);
 width: 100%;
-   padding: 0;
-
-   h1 {
-    // margin-left: 2em;
-   }
+display: flex;
+flex-direction: column;
+border-bottom: var(--border-500);
+  
 }

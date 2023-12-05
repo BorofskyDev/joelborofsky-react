@@ -1,9 +1,10 @@
 import XLHeading from '../../../headings/XLHeading'
 import LargeContainer from '../../../layout/containers/LargeContainer'
+import styles from '../../../../styles/components/sections/hero/HeroIntro.module.scss'
 
 function HeroIntro() {
   return (
-    <div className='bg1'>
+    <div className={styles.heroIntro}>
       <XLHeading>Hello!</XLHeading>
       <p>
         My name is <span>Joel</span>
