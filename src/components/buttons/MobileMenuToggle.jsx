@@ -10,7 +10,7 @@ const topVariants = {
 
 const middleVariants = {
   closed: { opacity: 1, left: '0' },
-  opened: { opacity: 0, left: '0.5em' },
+  opened: { opacity: 0, left: '-4.5em' },
 }
 
 const bottomVariants = {

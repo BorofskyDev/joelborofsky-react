@@ -1,10 +1,11 @@
 .largeContainer {
-    align-self: flex-end;
+    align-self: center;
     border: var(--border-200);
     border-radius: var(--br-900);
     font-weight: var(--fw-bold);
     text-align: center;
     letter-spacing: 0.125em;
+    margin-inline: 2em;
     padding: 1.5em 5em;
     box-shadow: var(--box-shadow-400);
     font-size: var(--fs-600);
