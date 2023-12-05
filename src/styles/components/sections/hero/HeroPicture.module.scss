@@ -1,0 +1,9 @@
+.heroPicture {
+  min-height: 50%;
+  width: 100%;
+  background-color: hsl(var(--color-5));
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}

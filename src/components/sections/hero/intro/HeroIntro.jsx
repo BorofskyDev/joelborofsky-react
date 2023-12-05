@@ -7,10 +7,10 @@ function HeroIntro() {
     <div className={styles.heroIntro}>
       <XLHeading>Hello!</XLHeading>
       <p>
-        My name is <span>Joel</span>
+        My name is <span className='font-handwriting fs-600'>Joel</span>
       </p>
       <p>I am a...</p>
-      <LargeContainer className='bg2'>Frontend Developer</LargeContainer>
+      <LargeContainer className='bg2 font-handwriting'>Frontend Developer</LargeContainer>
     </div>
   )
 }

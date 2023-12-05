@@ -1,0 +1,19 @@
+.imageContainer {
+    position: relative;
+    min-height: 21.25em;
+    min-width: 20.2em;
+    grid-row: 2/4;
+    grid-column: 2/4;
+    border: var(--border-400);
+    border-radius: var(--br-600);
+    box-shadow: var(--box-shadow-400);
+    display: grid;
+    place-items: center;
+
+    & .image {
+        position: absolute;
+        height: 16em;
+        width: 14em;
+        object-fit: cover;
+    }
+}
