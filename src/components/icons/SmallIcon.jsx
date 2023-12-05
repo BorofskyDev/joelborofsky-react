@@ -1,8 +1,12 @@
 import styles from '../../styles/components/icons/SmallIcon.module.scss'
 
-function SmallIcon({ src, className }) {
+function SmallIcon({ children, className }) {
   const containerClasses = `${styles.smallIcon} ${className || ''}`
 
-  return <img src={src} alt={null} className={containerClasses} aria-hidden />
+  return (
+    <div className={containerClasses} aria-hidden>
+        {children}
+    </div>
+  )
 }
 export default SmallIcon
