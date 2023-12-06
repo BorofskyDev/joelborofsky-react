@@ -1,3 +1,5 @@
+@use '../../../utils/mixins' as mixin;
+
 .heroIntro {
     height: 50%;
     width: 100%;
@@ -11,6 +13,15 @@
     border-bottom: var(--border-200);
     background-color: hsl(var(--color-1));
    
+    @include mixin.respond(tab) {
+        height: 50vh;
+    }
+
+    @include mixin.respond(desktop) {
+        height: calc(100vh - 8em);
+        width: 50%;
+        border-right: var(--border-200);
+    }
 
     p {
         font-size: var(--fs-500);

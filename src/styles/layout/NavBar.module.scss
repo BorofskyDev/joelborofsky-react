@@ -14,6 +14,7 @@
     display: block;
     padding: 2em 3em;
     border-bottom: var(--border-300);
+    background-color: hsl(var(--color-light));
     z-index: 9000 !important; // This is for the developer
 
     & ul {
