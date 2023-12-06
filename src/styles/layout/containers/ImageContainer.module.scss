@@ -9,9 +9,10 @@
     box-shadow: var(--box-shadow-400);
     display: grid;
     place-items: center;
+    padding: 1em 0;
 
     & .image {
-        position: absolute;
+        // position: absolute;
         height: 16em;
         width: 14em;
         object-fit: cover;

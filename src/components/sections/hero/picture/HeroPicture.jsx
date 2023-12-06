@@ -7,6 +7,7 @@ import { ReactComponent as SunflowerIcon } from '../../../../assets/icons/naviga
 import { ReactComponent as SmilingSun } from '../../../../assets/icons/decorative/smiling-sun.svg'
 import { ReactComponent as Beach } from '../../../../assets/icons/decorative/beach.svg'
 import SmallIcon from '../../../icons/SmallIcon'
+import SmallContainer from '../../../layout/containers/SmallContainer'
 
 function HeroPicture() {
   return (
@@ -16,6 +17,7 @@ function HeroPicture() {
           src={heroPicture}
           alt='Joel Borofsky around the age of 7 or 8 in a school photo'
         />
+        <SmallContainer className='bg4'>Joel Borofsky</SmallContainer>
         <SmallIcon className='icon1 bg6 fillVibrant2'>
           <AstronautIcon />
         </SmallIcon>
@@ -25,7 +27,7 @@ function HeroPicture() {
         <SmallIcon className='icon3 bg1 fillVibrant3'>
           <SmilingSun />
         </SmallIcon>
-        <SmallIcon className='icon4 bg6 fillVibrant5'>
+        <SmallIcon className='icon4 bg2 fillVibrant1'>
           <Beach />
         </SmallIcon>
       </ImageContainer>
