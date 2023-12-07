@@ -13,7 +13,10 @@
   @include mixin.respond(tab) {
     height: 6em;
     grid-template-colums: 1fr;
+    grid-template-rows: 1fr 1fr;
     place-content: center;
+    border: none;
+    // padding: 0;
     // padding: 0 2em;
   }
 

@@ -14,6 +14,7 @@ border-bottom: var(--border-500);
 
 @include mixin.respond(desktop) {
     flex-direction: row;
+    margin-top: 0;
 }
   
 }

@@ -6,14 +6,17 @@
   @include mixin.transitionMain;
 
   @include mixin.respond(tab) {
-    position: fixed;
-    top: 6em;
-    left: 0;
-    height: 5em;
+    // top: 6em;
+    // position: sticky;
+    // left: 0;
+    position: relative;
+    grid-row: 2 / 2;
+    height: 4em;
     width: 100vw;
     display: block;
     padding: 2em 3em;
     border-bottom: var(--border-300);
+    border-top: var(--border-300);
     background-color: hsl(var(--color-light));
     z-index: 9000 !important; // This is for the developer
 
