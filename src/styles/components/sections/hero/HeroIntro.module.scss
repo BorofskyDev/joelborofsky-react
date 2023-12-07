@@ -1,7 +1,7 @@
 @use '../../../utils/mixins' as mixin;
 
 .heroIntro {
-    height: 50%;
+    min-height: 50%;
     width: 100%;
     padding: 2em;
     padding-bottom: 4em;
