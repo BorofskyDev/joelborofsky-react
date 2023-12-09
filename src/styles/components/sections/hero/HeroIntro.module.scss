@@ -10,7 +10,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 1em;
-    border-bottom: var(--border-200);
+    border-bottom: var(--border-300);
     background-color: hsl(var(--color-1));
    
     @include mixin.respond(tab) {

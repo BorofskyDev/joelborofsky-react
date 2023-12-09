@@ -1,3 +1,44 @@
 .sectionTitle {
-    
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 2em auto;
+  height: 3em;
+  width: 8em;
+  border: var(--border-200);
+  border-radius: var(--br-900);
+  box-shadow: var(--box-shadow-300);
+  display: flex;
+  align-items: center;
+  text-transform: center;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.125em;
+  transform: translateX(-50%) skew(-25deg);
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    height: 3em;
+    background-color: inherit;
+    box-shadow: inherit;
+    border: inherit;
+    border-radius: inherit;
+  }
+
+  &::before {
+    left: -1em;
+  }
+
+  &::after {
+    right: -1em;
+  }
+
+  & span {
+    width: 100%;
+    transform: skew(25deg);
+    text-align: center;
+  }
 }
