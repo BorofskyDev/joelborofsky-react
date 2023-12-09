@@ -24,12 +24,12 @@ function HeroPicture() {
         <SmallIcon className='icon2 bg4 fillVibrant1'>
           <SunflowerIcon />
         </SmallIcon>
-        <SmallIcon className='icon3 bg1 fillVibrant3'>
+        {/* <SmallIcon className='icon3 bg1 fillVibrant3'>
           <SmilingSun />
         </SmallIcon>
         <SmallIcon className='icon4 bg2 fillVibrant1'>
           <Beach />
-        </SmallIcon>
+        </SmallIcon> */}
       </ImageContainer>
     </div>
   )

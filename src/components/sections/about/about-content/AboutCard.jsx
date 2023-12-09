@@ -1,4 +1,4 @@
 function AboutCard({ children }) {
-  return <div>AboutCard</div>
+  return <div >{children}</div>
 }
 export default AboutCard
