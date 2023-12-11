@@ -1,0 +1,24 @@
+@use '../../../utils/mixins' as mixin;
+
+.stack {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    'stack-1'
+    'stack-2'
+    'stack-3'
+    'stack-4';
+    border-bottom: var(--border-800);
+
+    @include mixin.respond(tab) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        'stack-1 stack-2'
+        'stack-3 stack-4';
+    }
+}
