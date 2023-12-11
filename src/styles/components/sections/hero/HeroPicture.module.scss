@@ -14,9 +14,13 @@
     min-height: 50vh;
   }
 
-  @include mixin.respond(desktop) {
-    height: calc(100vh - 8em);
+  @include mixin.respond(smallDesktop) {
     width: 50%;
     border-left: var(--border-200);
+  }
+
+
+  @include mixin.respond(desktop) {
+    height: calc(100vh - 8em);
   }
 }

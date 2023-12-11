@@ -5,8 +5,14 @@
         }
     }
 
+    @if $breakpoint == smallDesktop {
+        @media (min-width: 52em) {
+            @content;
+        }
+    }
+
     @if $breakpoint == desktop {
-        @media (min-width: 64em) {
+        @media (min-width: 78em) {
             @content;
         }
     }

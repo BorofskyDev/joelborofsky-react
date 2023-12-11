@@ -13,7 +13,7 @@
     margin-top: 3em;
   }
 
-  @include mixin.respond(desktop) {
+  @include mixin.respond(smallDesktop) {
     flex-direction: row;
     margin-top: 0;
   }

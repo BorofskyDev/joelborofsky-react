@@ -15,14 +15,19 @@
     // overflow: hidden;
    
     @include mixin.respond(tab) {
-        height: 50vh;
+        min-height: 50vh;
+    }
+    
+    @include mixin.respond(smallDesktop) {
+        width: 50%;
+        border-right: var(--border-200);
+        border-bottom: none;
     }
 
     @include mixin.respond(desktop) {
         height: calc(100vh - 8em);
         width: 50%;
-        border-right: var(--border-200);
-        border-bottom: none;
+        
     }
 
     p {

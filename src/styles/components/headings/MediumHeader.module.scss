@@ -1,3 +1,12 @@
 .mediumHeader {
-
+    width: 100%;
+    margin: 1em auto;
+    padding: 1em 2em;
+    text-align: center;
+    letter-spacing: 0.125em;
+    border: var(--border-200);
+    border-radius: var(--br-600);
+    box-shadow: var(--box-shadow-200);
+    font-family: var(--font-title);
+    font-weight: var(--fw-bold);
 }
