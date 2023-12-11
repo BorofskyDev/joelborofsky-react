@@ -20,7 +20,7 @@
     margin: 0 1em;
     height: 35em;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
    }
 
     & p {
@@ -32,8 +32,9 @@
         line-height: 1.75;
 
         @include mixin.respond(desktop) {
-            height: 30em;
-
+            height: 24em;
+            display: grid;
+            place-content: center;
         }
     }
 

@@ -1,21 +1,20 @@
 @use '../../../utils/mixins' as mixin;
 
 .aboutSummary {
-    position: relative;
-    height: 100%;
-    max-width: calc(100% - 4em);
-    margin-inline: 4em;
-    padding: 2em 4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4em;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  gap: 4em;
+  padding: 2em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    @include mixin.respond(desktop) {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 0;
-    }
-    
+
+  @include mixin.respond(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
 }
