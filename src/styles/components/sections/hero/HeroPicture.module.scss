@@ -15,7 +15,7 @@
     }
 
   @include mixin.respond(smallDesktop) {
-    height: calc(100vh - 8em);
+    height: 100vh;
     width: 50%;
     border-left: var(--border-600);
   }

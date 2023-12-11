@@ -1,20 +1,20 @@
 .mediumHeader {
-    position: relative;
-    width: 100%;
-    margin: 1em auto;
-    padding: 1em 2em;
-    text-align: center;
-    letter-spacing: 0.125em;
-    border: var(--border-300);
-    border-radius: var(--br-600);
-    box-shadow: var(--box-shadow-300);
-    font-family: var(--font-title);
-    font-weight: var(--fw-extra-bold);
+  position: relative;
+  width: 100%;
+  margin: 1em auto;
+  padding: 1em 2em;
+  text-align: center;
+  letter-spacing: 0.125em;
+  border: var(--border-300);
+  border-radius: var(--br-600);
+  box-shadow: var(--box-shadow-300);
+  font-family: var(--font-title);
+  font-weight: var(--fw-extra-bold);
 
-    & span {
-        position: absolute;
-       text-align: center;
-        font-size: var(--fs-600);
-        transform: translate(1%, -15%) rotate(5deg) skew(-10deg);
-    }
+  & span {
+    position: absolute;
+    text-align: center;
+    font-size: var(--fs-600);
+    transform: translate(1%, -15%) rotate(5deg) skew(-10deg);
+  }
 }

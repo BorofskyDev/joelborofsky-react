@@ -9,18 +9,22 @@ import SmallIcon from '../../../icons/SmallIcon'
 function AboutSummary() {
   return (
     <div className={styles.aboutSummary}>
-      <AboutCard className='bg4' >
-        <SmallIcon className='icon1 bg5 fillVibrant4' ><DeveloperIcon /></SmallIcon>
+      <AboutCard className='bg4'>
+        <SmallIcon className='icon1 bg5 fillVibrant4'>
+          <DeveloperIcon />
+        </SmallIcon>
         <MediumHeader className='bg3'>Developer</MediumHeader>
         <p>
           Ever since writing my first code of JavaScript, I've been hooked on
-          the frontend. I love the challenge of building a great user
-          experience by utilizing SCSS, Styled Components, Three.js, all within 
-          a React framework.
+          the frontend. I love the challenge of building a great user experience
+          by utilizing SCSS, Styled Components, Three.js, all within a React
+          framework.
         </p>
       </AboutCard>
-      <AboutCard className='bg1' >
-        <SmallIcon className='icon1 bg4 fillVibrant3' ><DesignerIcon /></SmallIcon>
+      <AboutCard className='bg1'>
+        <SmallIcon className='icon1 bg4 fillVibrant3'>
+          <DesignerIcon />
+        </SmallIcon>
         <MediumHeader className='bg6'>Designer</MediumHeader>
         <p>
           It's not enough to build, I also like to design. I excel in knowing
@@ -28,9 +32,13 @@ function AboutSummary() {
           their business goals as well.
         </p>
       </AboutCard>
-      <AboutCard className='bg5' >
-        <SmallIcon className='icon1 bg1 fillVibrant2' ><BusinessIcon /></SmallIcon>
-        <MediumHeader className='bg4'>Business<span className='font-handwriting'>(er)</span></MediumHeader>
+      <AboutCard className='bg5'>
+        <SmallIcon className='icon1 bg1 fillVibrant2'>
+          <BusinessIcon />
+        </SmallIcon>
+        <MediumHeader className='bg4'>
+          Business<span className='font-handwriting'>(er)</span>
+        </MediumHeader>
         <p>
           I spent close to a decade in banking around sales and service. My
           background in banking services, commercial credit, and investor
