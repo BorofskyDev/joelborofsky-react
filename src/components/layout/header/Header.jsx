@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useStickyNav } from '../../../hooks/useStickyNav'
 import Banner from './Banner'
 import MobileMenuToggle from '../../buttons/MobileMenuToggle'
 import styles from '../../../styles/layout/Header.module.scss'
@@ -8,13 +9,14 @@ import NavBar from './NavBar'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { isSticky, navbarRef, bannerRef } = useStickyNav()
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen)
   }
   return (
     <header className={styles.header}>
-      <Banner />
+      <Banner ref={bannerRef} />
       <MobileMenuToggle
         isMenuOpen={isMenuOpen}
         handleMenuToggle={handleMenuToggle}
@@ -28,7 +30,7 @@ function Header() {
         )}
       </AnimatePresence>
 
-      <NavBar />
+      <NavBar isSticky={isSticky} navbarRef={navbarRef} />
     </header>
   )
 }
