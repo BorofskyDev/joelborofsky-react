@@ -1,6 +1,7 @@
 @use '../../../utils/mixins' as mixin;
 
 .about {
+    height: 100%;
     margin-top: 9em;
     border-top: var(--border-400);
     border-bottom: var(--border-400);

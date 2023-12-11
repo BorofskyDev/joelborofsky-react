@@ -12,6 +12,7 @@
     gap: 1em;
     border-bottom: var(--border-300);
     background-color: hsl(var(--color-1));
+    // overflow: hidden;
    
     @include mixin.respond(tab) {
         height: 50vh;

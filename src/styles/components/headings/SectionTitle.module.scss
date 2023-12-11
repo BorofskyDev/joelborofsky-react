@@ -1,7 +1,7 @@
 .sectionTitle {
-  position: absolute;
-  top: 0;
-  left: 50%;
+  // position: absolute;
+  // top: 0;
+  // left: 50%;
   margin: 2em auto;
   height: 3em;
   width: 8em;
@@ -14,7 +14,7 @@
   font-weight: 900;
   text-align: center;
   letter-spacing: 0.125em;
-  transform: translateX(-50%) skew(-25deg);
+  transform: skew(-25deg);
 
   &::before,
   &::after {
