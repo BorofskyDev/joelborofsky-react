@@ -17,7 +17,7 @@
     background-color: hsl(var(--color-light));
     z-index: 9000 !important; // This is for the developer
     @include mixin.transitionMain;
-    
+
     & ul {
       height: 100%;
       width: 100%;
@@ -29,27 +29,24 @@
   }
 }
 
+.stickyNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top: none;
+  height: 4em;
+  padding: 1.5em 2em;
+  @include mixin.transitionMain;
 
-
-  .stickyNav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    border-top: none;
-    height: 4em;
-    padding: 1.5em 2em;
-    @include mixin.transitionMain;
-    
-    & ul {
-        font-size: var(--fs-500);
-
-      }
-  
-    @include mixin.respond(desktop) {
-      height: 2em;
-    }
+  & ul {
+    font-size: var(--fs-500);
   }
-  
-  .navbarOffsetMargin {
-    padding-top: 1em;
+
+  @include mixin.respond(desktop) {
+    height: 2em;
   }
+}
+
+.navbarOffsetMargin {
+  padding-top: 1em;
+}
