@@ -1,5 +1,11 @@
+@use '../../../../utils/mixins/' as mixin;
+
 .stackBoxOne {
     grid-area: stack-1;
     padding: 2em 1em;
+    border-bottom: var(--border-400);
 
+    @include mixin.respond(tab) {
+        border-right: var(--border-400);
+    }
 }

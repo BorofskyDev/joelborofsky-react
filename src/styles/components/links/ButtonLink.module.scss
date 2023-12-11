@@ -17,13 +17,11 @@
     @include mixin.transitionMain;
 
     &:hover, &:focus {
-        border: var(--border-600);
         box-shadow: var(--box-shadow-600);
         transform: translate(-5%, -5%);
     }
 
     &:active {
-        border: var(--border-800);
         box-shadow: var(--box-shadow-200);
         transform: translate(0, 0);
     }

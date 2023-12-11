@@ -1,23 +1,30 @@
+@use '../../../../utils/mixins/' as mixin;
+
 .stackBoxTwo {
-    display: grid;
+  border-bottom: var(--border-400);
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     'icon1 icon2'
     'icon3 icon4';
-    .stackIcon1 {
-      grid-area: icon1;
-    }
-    
-    .stackIcon2 {
-      grid-area: icon2;
-    }
-    
-     .stackIcon3 {
-      grid-area: icon3;
-    }
-    
-    .stackIcon4 {
-      grid-area: icon4;
-    }
+  @include mixin.respond(tab) {
+    border-left: var(--border-400);
+  }
+
+  .stackIcon1 {
+    grid-area: icon1;
+  }
+
+  .stackIcon2 {
+    grid-area: icon2;
+  }
+
+  .stackIcon3 {
+    grid-area: icon3;
+  }
+
+  .stackIcon4 {
+    grid-area: icon4;
+  }
 }

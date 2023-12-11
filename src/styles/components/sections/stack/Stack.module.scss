@@ -13,6 +13,7 @@
     'stack-3'
     'stack-4';
     border-bottom: var(--border-800);
+    border-top: var(--border-800);
 
     @include mixin.respond(tab) {
         grid-template-columns: repeat(2, 1fr);
