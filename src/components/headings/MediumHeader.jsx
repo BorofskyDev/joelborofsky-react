@@ -1,10 +1,8 @@
 import styles from '../../styles/components/headings/MediumHeader.module.scss'
 
-function MediumHeader({children}) {
+function MediumHeader({ children, className }) {
   const headingClasses = `${styles.mediumHeader} ${className || ''}`
 
-  return (
-    <h3  >{children}</h3>
-  )
+  return <h3 className={headingClasses}>{children}</h3>
 }
 export default MediumHeader

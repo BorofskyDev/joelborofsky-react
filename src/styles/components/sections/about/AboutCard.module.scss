@@ -1,3 +1,7 @@
 .aboutCard {
-    
+    max-height: 18em;
+    max-width: 46em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

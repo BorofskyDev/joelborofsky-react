@@ -3,16 +3,35 @@ import styles from '../../../../styles/components/sections/about/About.module.sc
 import { ReactComponent as DeveloperIcon } from '../../../../assets/icons/about/developer.svg'
 import { ReactComponent as DesignerIcon } from '../../../../assets/icons/about/designer.svg'
 import { ReactComponent as BusinessIcon } from '../../../../assets/icons/about/banker.svg'
+import MediumHeader from '../../../headings/MediumHeader'
 
 function AboutSummary() {
   return (
     <div className={styles.aboutSummary}>
-      <div>
-        <AboutCard className='bg1' iconComponent={<DeveloperIcon />}>
-          <h4>Developer</h4>
-          <p>Full Stack Web Developer with a passion for learning and creating.</p>
-        </AboutCard>
-      </div>
+      <AboutCard className='bg1' iconComponent={<DeveloperIcon />}>
+        <MediumHeader>Developer</MediumHeader>
+        <p>
+          Ever since writing my first code of JavaScript, I've been hooked on
+          the frontend. I love the challenge of building a great user
+          experience.
+        </p>
+      </AboutCard>
+      <AboutCard className='bg3' iconComponent={<DesignerIcon />}>
+        <MediumHeader>Designer</MediumHeader>
+        <p>
+          It's not enough to build, I also like to design. I excel in knowing
+          what the end-user likes, but in a way that will help them achieve
+          their business goals as well.
+        </p>
+      </AboutCard>
+      <AboutCard className='bg4' iconComponent={<BusinessIcon />}>
+        <MediumHeader>Business</MediumHeader>
+        <p>
+          I spent close to a decade in banking around sales and service. My
+          background in banking services, commercial credit, and investor
+          relations provide service to any company beyond the code.
+        </p>
+      </AboutCard>
     </div>
   )
 }
