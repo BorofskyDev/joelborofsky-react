@@ -1,23 +1,25 @@
 @use '../utils/mixins' as mixin;
 
 .header {
-  position: relative;
+  position:fixed;
   height: 4em;
   width: 100vw;
   display: grid;
   padding: 0.5em 2em;
   grid-template-columns: 3fr 1fr;
-  border-bottom: var(--border-300);
-  
+  border-bottom: var(--border-900);
+  overflow: hidden;
+  background-color: hsl(var(--color-light));
+  z-index: 999999;
 
   @include mixin.respond(tab) {
+    position: relative;
     height: 6em;
     grid-template-colums: 1fr;
     grid-template-rows: 1fr 1fr;
     place-content: center;
     border: none;
-    // padding: 0;
-    // padding: 0 2em;
+    overflow: visible;
   }
 
 }

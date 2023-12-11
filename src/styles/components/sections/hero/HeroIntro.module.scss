@@ -1,31 +1,33 @@
 @use '../../../utils/mixins' as mixin;
 
 .heroIntro {
-    min-height: 50%;
+    height: 50vh;
     width: 100%;
-    padding: 2em;
-    padding-bottom: 4em;
+    margin-top: 1em;
+    padding: 4em 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 1em;
-    border-bottom: var(--border-300);
+    border-bottom: var(--border-600);
     background-color: hsl(var(--color-1));
-    // overflow: hidden;
-   
+
     @include mixin.respond(tab) {
-        min-height: 50vh;
+        height: 100%;
+        margin: 0;
     }
+   
     
     @include mixin.respond(smallDesktop) {
+
+        height: calc(100vh - 8em);
         width: 50%;
-        border-right: var(--border-200);
+        border-right: var(--border-600);
         border-bottom: none;
     }
 
     @include mixin.respond(desktop) {
-        height: calc(100vh - 8em);
         width: 50%;
         
     }

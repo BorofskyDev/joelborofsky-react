@@ -1,26 +1,26 @@
 @use '../../../utils/mixins' as mixin;
 
 .heroPicture {
-  min-height: 70%;
+  height: 50vh;
   width: 100%;
   background-color: hsl(var(--color-5));
   display: grid;
   place-items: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  // overflow: hidden;
 
-  @include mixin.respond(tab) {
-    min-height: 50vh;
-  }
+@include mixin.respond(tab) {
+        height: 100%;
+        margin: 0;
+    }
 
   @include mixin.respond(smallDesktop) {
+    height: calc(100vh - 8em);
     width: 50%;
-    border-left: var(--border-200);
+    border-left: var(--border-600);
   }
 
 
   @include mixin.respond(desktop) {
-    height: calc(100vh - 8em);
   }
 }

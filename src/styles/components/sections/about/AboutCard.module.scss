@@ -4,13 +4,15 @@
     position: relative;
     height: 100%;
     width: 100%;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1em;
+    gap: 2em;
     border: var(--border-500);
     border-radius: var(--br-400);
-    box-shadow: var(--box-shadow-500);
+    box-shadow: var(--box-shadow-600);
+
 
    @include mixin.respond(tab) {
     padding: 1em 3em;
@@ -32,8 +34,9 @@
         line-height: 1.75;
 
         @include mixin.respond(desktop) {
-            height: 24em;
+            height: 60%;
             display: grid;
+            padding: 1em 0.5em;
             place-content: center;
         }
     }

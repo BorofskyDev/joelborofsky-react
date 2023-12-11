@@ -5,7 +5,7 @@
   margin: 2em auto;
   height: 3em;
   width: 8em;
-  border: var(--border-200);
+  border: var(--border-300);
   border-radius: var(--br-900);
   box-shadow: var(--box-shadow-300);
   display: flex;
@@ -29,11 +29,11 @@
   }
 
   &::before {
-    left: -1em;
+    left: -1.5em;
   }
 
   &::after {
-    right: -1em;
+    right: -1.5em;
   }
 
   & span {

@@ -5,17 +5,16 @@
     padding: 1em 2em;
     text-align: center;
     letter-spacing: 0.125em;
-    border: var(--border-200);
+    border: var(--border-300);
     border-radius: var(--br-600);
-    box-shadow: var(--box-shadow-200);
+    box-shadow: var(--box-shadow-300);
     font-family: var(--font-title);
     font-weight: var(--fw-bold);
 
     & span {
         position: absolute;
-        top: 0;
-        right: 0;
-        font-size: var(--fs-400);
-        transform: translate(-55%, 90%) rotate(25deg);
+       text-align: center;
+        font-size: var(--fs-600);
+        transform: translate(1%, -15%) rotate(5deg) skew(-10deg);
     }
 }
