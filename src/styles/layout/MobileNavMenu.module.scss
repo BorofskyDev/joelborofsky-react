@@ -18,27 +18,29 @@
     position: absolute;
     bottom: 20%;
     left: 0;
-    height: 40vh;
+    height: 50vh;
     width: 40vh;
-    // border: var(--border-300);
+    border: var(--border-300);
+    box-shadow: var(--box-shadow-400);
     // border-radius: 50%;
     background-image: linear-gradient(
       
       hsla(var(--color-2)) 50%,
       hsla(var(--color-1) ) 50%
-    );
-     clip-path: square(10% at left 10%);
-     z-index: -1;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 5%;
-    right: 0;
-    height: 35vh;
-    width: 35vh;
-    // border: var(--border-300);
+      );
+      clip-path: square(10% at left 10%);
+      z-index: -1;
+    }
+    
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 35vh;
+      width: 35vh;
+      border: var(--border-300);
+      box-shadow: var(--box-shadow-400);
     // border-radius: 50%;
     background-image: linear-gradient(
       to left,
