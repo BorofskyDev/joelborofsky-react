@@ -1,3 +1,31 @@
+@use '../../utils/mixins/' as mixin;
+
 .buttonLink {
-    
+    margin: 1em 2em;
+    padding: 0.3em 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--border-400);
+    border-radius: var(--br-900);
+    box-shadow: var(--box-shadow-300);
+    font-family: var(--font-link);
+    color: var(--color-dark);
+    font-weight: var(--fw-extra-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    @include mixin.transitionMain;
+
+    &:hover, &:focus {
+        border: var(--border-600);
+        box-shadow: var(--box-shadow-600);
+        transform: translate(-5%, -5%);
+    }
+
+    &:active {
+        border: var(--border-800);
+        box-shadow: var(--box-shadow-200);
+        transform: translate(0, 0);
+    }
+
 }

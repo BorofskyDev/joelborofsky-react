@@ -1,0 +1,10 @@
+.mediumIcon {
+   
+height: 6em;
+    width: 6em;
+    border: var(--border-400);
+    border-radius: var(--br-900);
+    display: grid;
+    place-items: center;
+    box-shadow: var(--box-shadow-400);
+}

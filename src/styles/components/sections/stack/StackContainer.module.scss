@@ -3,4 +3,12 @@
     display: grid;
     place-items: center;
     border-bottom: var(--border-400);
+
+    & ul {
+        padding: 0 1em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
 }
