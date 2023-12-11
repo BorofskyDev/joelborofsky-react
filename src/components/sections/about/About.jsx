@@ -2,7 +2,7 @@ import FlexColumnSectionWrapper from "../../layout/section/FlexColumnSectionWrap
 import styles from '../../../styles/components/sections/about/About.module.scss'
 import SectionTitle from "../../headings/SectionTitle"
 import AboutSummary from "./about-content/AboutSummary"
-import AboutBio from "./about-content/AboutBio"
+import AboutBio from "./about-bio/AboutBio"
 
 function About() {
   return (

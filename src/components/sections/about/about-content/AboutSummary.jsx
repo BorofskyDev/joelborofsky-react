@@ -9,7 +9,7 @@ import SmallIcon from '../../../icons/SmallIcon'
 function AboutSummary() {
   return (
     <div className={styles.aboutSummary}>
-      <AboutCard className='bg1' >
+      <AboutCard className='bg4' >
         <SmallIcon className='icon1 bg5 fillVibrant4' ><DeveloperIcon /></SmallIcon>
         <MediumHeader className='bg3'>Developer</MediumHeader>
         <p>
@@ -19,7 +19,7 @@ function AboutSummary() {
           a React framework.
         </p>
       </AboutCard>
-      <AboutCard className='bg3' >
+      <AboutCard className='bg1' >
         <SmallIcon className='icon1 bg4 fillVibrant3' ><DesignerIcon /></SmallIcon>
         <MediumHeader className='bg6'>Designer</MediumHeader>
         <p>
