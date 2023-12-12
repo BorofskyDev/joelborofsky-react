@@ -4,7 +4,7 @@ function ProjectGrid({ children, className}) {
 const sectionClasses = `${styles.projectGrid} ${className} || ''`
 
   return (
-    <div className={sectionClasses}>ProjectGrid</div>
+    <div className={sectionClasses}>{children}</div>
   )
 }
 export default ProjectGrid
