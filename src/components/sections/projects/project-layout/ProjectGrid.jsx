@@ -1,16 +1,23 @@
-import projectData from '../data/projectData'
+import {projectData} from '../data/projectData'
 import styles from '../../../../styles/components/sections/projects/ProjectGrid.module.scss'
+import ProjectCard from './ProjectCard'
 
-function ProjectGrid({ id, title, description, stack, image, github, demo, className}) {
-const sectionClasses = `${styles.projectGrid} ${className} || ''`
-
+function ProjectGrid({ className }) {
+  const sectionClasses = `${styles.projectGrid} ${className} || ''`
 
   return (
-    <div className={sectionClasses} key={id}>
-        <div>
-            <img src={image} alt={title} />
-            <h4>{title}</h4>
-        </div>
+    <div className={`${sectionClasses}`}>
+      {projectData.map((project) => (
+        <ProjectCard
+          key={project.id}
+          title={project.title}
+          description={project.description}
+          stack={project.stack}
+          image={project.image}
+          github={project.github}
+          demo={project.demo}
+        />
+      ))}
     </div>
   )
 }

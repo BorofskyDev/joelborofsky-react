@@ -1,3 +1,91 @@
 .projectCard {
-    
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  border: var(--border-400);
+  border-radius: var(--br-600);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    'image image links links'
+    'image image stack stack'
+    'image image desc desc';
+}
+
+.cardImage {
+  position: relative;
+  grid-area: image;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  border-radius: var(--br-500);
+  border: var(--border-200);
+  box-shadow: var(--box-shadow-200);
+  background-color: hsl(var(--color-light));
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h4 {
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    font-family: var(--font-handwriting);
+    font-size: var(--fs-300);
+    text-align: center;
+  }
+}
+
+.cardStack {
+  grid-area: stack;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: var(--border-200);
+  border-bottom: var(--border-200);
+
+  & li {
+      margin: 0 1em;
+      font-size: var(--fs-300);
+    text-align: center;
+  }
+}
+
+.cardLinks {
+  grid-area: links;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+
+    & a {
+        padding: 0.25em 0.75em;
+        border: var(--border-200);
+        border-radius: var(--br-900);
+        font-size: var(--fs-300);
+    }
+}
+
+.cardDesc {
+  grid-area: desc;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    text-align: center;
 }

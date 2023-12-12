@@ -7,10 +7,8 @@ function Projects({className}) {
 
   return (
     <section className={`${sectionClasses}`}>
-      <ProjectGrid>
       <SectionTitle className=' grid-title bg2'>Projects</SectionTitle>
-     
-      </ProjectGrid>
+      <ProjectGrid />
     </section>
   )
 }

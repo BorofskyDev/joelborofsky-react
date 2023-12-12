@@ -1,10 +1,15 @@
+import image1 from '../../../../assets/img/projects/bacchus.png'
+import image2 from '../../../../assets/img/projects/main-site.png'
+import image3 from '../../../../assets/img/projects/uptown-landing.png'
+import image4 from '../../../../assets/img/projects//model-card.png'
+
 export const projectData = [
   {
     id: 1,
     title: 'This Site',
     description: "It's this website",
     stack: ['React', 'SCSS', 'Framer Motion'],
-    image: 'https://via.placeholder.com/150',
+    image: image1,
     github: 'https://github.com',
     demo: 'https://github.com',
   },
@@ -13,7 +18,7 @@ export const projectData = [
     title: 'Blog',
     description: "It's a blog built using Nextjs",
     stack: ['Nextjs', 'React', 'TailwindCSS'],
-    image: 'https://via.placeholder.com/150',
+    image: image2,
     github: 'https://github.com',
     demo: 'https://github.com',
   },
@@ -23,7 +28,7 @@ export const projectData = [
     description:
       "It's a fake financial company with 3D parallax effects and buttons",
     stack: ['React', 'React Three Fiber', 'Drei'],
-    image: 'https://via.placeholder.com/150',
+    image: image3,
     github: 'https://github.com',
     demo: 'https://github.com',
   },
@@ -32,7 +37,7 @@ export const projectData = [
     title: 'React Dashboard',
     description: 'TailwindCSS, React dashboard project',
     stack: ['React', 'TailwindCSS', 'Framer Motion'],
-    image: 'https://via.placeholder.com/150',
+    image: image4,
     github: 'https://github.com',
     demo: 'https://github.com',
   },
