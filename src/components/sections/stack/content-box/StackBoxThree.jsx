@@ -15,10 +15,10 @@ function StackBoxThree() {
       <MediumIcon className={`bg2 ${styles.stackIcon2}`}>
         <ThreeIcon className='fillVibrant5' />
       </MediumIcon>
-      <MediumIcon className={`bg5 ${styles.stackIcon3}`}>
-        <TailwindIcon className='fillVibrant5' />
+      <MediumIcon className={`bg4 ${styles.stackIcon3}`}>
+        <TailwindIcon className='fillVibrant3' />
       </MediumIcon>
-      <MediumIcon className={`bg3 ${styles.stackIcon4}`}>
+      <MediumIcon className={`bg5 ${styles.stackIcon4}`}>
         <StyledIcon className='fillVibrant4' />
       </MediumIcon>
     </StackContainer>

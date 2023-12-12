@@ -19,8 +19,9 @@
     bottom: 20%;
     left: 0;
     height: 50vh;
-    width: 40vh;
+    width: 55vh;
     border: var(--border-300);
+    border-left: none;
     box-shadow: var(--box-shadow-400);
     // border-radius: 50%;
     background-image: linear-gradient(
@@ -38,8 +39,10 @@
       top: 0;
       right: 0;
       height: 35vh;
-      width: 35vh;
+      width: 45vh;
       border: var(--border-300);
+      border-top: none;
+      border-right: none;
       box-shadow: var(--box-shadow-400);
     // border-radius: 50%;
     background-image: linear-gradient(

@@ -18,7 +18,7 @@ function StackBoxTwo() {
       <MediumIcon className={`bg1 ${styles.stackIcon3}`}>
         <JsIcon className='fillVibrant2' />
       </MediumIcon>
-      <MediumIcon className={`bg6 ${styles.stackIcon4}`}>
+      <MediumIcon className={`bgDark ${styles.stackIcon4}`}>
         <ReactIcon className='fillVibrant5' />
       </MediumIcon>
     </StackContainer>
