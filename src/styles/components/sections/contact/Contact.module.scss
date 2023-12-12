@@ -1,15 +1,10 @@
-.projects {
+.contact {
     position: relative;
     height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: hsl(var(--color-4));
     border-top: var(--border-600);
     border-bottom: var(--border-600);
 }

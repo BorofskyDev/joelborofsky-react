@@ -1,0 +1,22 @@
+.contactContent {
+    height: 100%;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        padding: 1em 3em;
+        border-radius: var(--br-900);
+        box-shadow: var(--box-shadow-400);
+        border: var(--border-600);
+        background-color: hsl(var(--color-light));
+        font-size: var(--fs-500);
+    }
+}
