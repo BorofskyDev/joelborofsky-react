@@ -7,8 +7,10 @@
   grid-template-areas:
     'icon1 icon2'
     'icon3 icon4';
+    border-bottom: var(--border-400);
   @include mixin.respond(tab) {
     border-right: var(--border-400);
+    // border-bottom: 0;
   }
 
   .stackIcon1 {

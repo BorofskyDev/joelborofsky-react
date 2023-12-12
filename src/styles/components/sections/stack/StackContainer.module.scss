@@ -8,7 +8,10 @@
         padding: 0 1em;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: center;
         align-content: center;
+        
+       
     }
 }
