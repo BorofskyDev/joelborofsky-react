@@ -6,7 +6,7 @@
     width: 100%;
     border-top: var(--border-400);
     display: grid;
-    place-content: center;
+    // place-content: center;
     place-items: center;
     @include mixin.respond(smallDesktop) {
         border-top: none;
