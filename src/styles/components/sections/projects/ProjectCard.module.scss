@@ -15,6 +15,17 @@
     'image image stack stack'
     'image image desc desc';
 
+  @include mixin.respond(tab) {
+    height: 35em;
+    width: 30em;
+    box-shadow: var(--box-shadow-600);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      'stack image image links'
+      'stack image image links'
+      'stack title title links'
+      'desc desc desc desc';
+  }
 }
 
 .cardImage {
@@ -29,6 +40,12 @@
   border-right: var(--border-200);
   background-color: hsl(var(--color-light));
 
+  @include mixin.respond(tab) {
+    border-right: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
   img {
     position: absolute;
     top: 0;
@@ -36,6 +53,12 @@
     height: 75%;
     width: 100%;
     object-fit: cover;
+    border-bottom: var(--border-200);
+
+    @include mixin.respond(tab) {
+      height: 90%;
+      border-bottom: none;
+    }
   }
 
   h4 {
@@ -46,6 +69,10 @@
     font-family: var(--font-handwriting);
     font-size: var(--fs-300);
     text-align: center;
+
+    @include mixin.respond(tab) {
+      height: 10%;
+    }
   }
 }
 
@@ -59,6 +86,14 @@
   flex-wrap: wrap;
   border-top: var(--border-200);
   border-bottom: var(--border-200);
+
+  @include mixin.respond(tab) {
+    border-right: var(--border-300);
+    border-bottom: 0;
+    border-top: 0;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
   & li {
     margin: 0 1em;
@@ -75,6 +110,12 @@
   align-items: center;
   justify-content: center;
   gap: 0.5em;
+
+  @include mixin.respond(tab) {
+    border-left: var(--border-300);
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
   & a {
     padding: 0.25em 0.75em;
@@ -106,4 +147,8 @@
   place-items: center;
   place-content: center;
   text-align: center;
+
+  @include mixin.respond(tab) {
+    border-top: var(--border-300);
+  }
 }
