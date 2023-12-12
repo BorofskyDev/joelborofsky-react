@@ -24,7 +24,7 @@ export const projectData = [
   },
   {
     id: 3,
-    title: 'React Three Fiber SaaS Website',
+    title: 'Uptown Finance',
     description:
       "It's a fake financial company with 3D parallax effects and buttons",
     stack: ['React', 'React Three Fiber', 'Drei'],
