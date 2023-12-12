@@ -10,7 +10,9 @@
     row-gap: 2em;
     
     @include mixin.respond(smallDesktop) {
+        width: 50%;
         border-right: var(--border-400);
+
     }
 
     h1 {

@@ -2,6 +2,7 @@
 
 .contactLinks {
     // margin: 2em;
+    padding: 2em;
     height: 100%;
     width: 100%;
     border-top: var(--border-400);
@@ -10,6 +11,8 @@
     justify-content: center;
 
     @include mixin.respond(smallDesktop) {
+        width: 50%;
+        padding: 4em 2em;
         border-top: none;
     }
     ul {
