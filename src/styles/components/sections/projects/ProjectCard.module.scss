@@ -118,13 +118,21 @@
   }
 
   & a {
-    padding: 0.25em 0.75em;
+    padding: 0.15em 0.25em;
     border: var(--border-200);
     border-radius: var(--br-900);
     font-size: var(--fs-300);
     box-shadow: var(--box-shadow-200);
     color: hsl(var(--color-dark));
     @include mixin.transitionMain;
+
+    @include mixin.respond(tab) {
+      padding: 0.5em 1em;
+    }
+
+    @include mixin.respond(desktop) {
+      padding: 0.75em 1.5em;
+    }
 
     &:hover,
     &:focus {
