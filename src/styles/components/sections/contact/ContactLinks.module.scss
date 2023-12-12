@@ -1,11 +1,28 @@
+@use '../../../utils/mixins/' as mixin;
+
 .contactLinks {
-    margin: 2em;
+    // margin: 2em;
+    height: 100%;
+    width: 100%;
+    border-top: var(--border-400);
+    display: grid;
+    place-content: center;
+    place-items: center;
+    @include mixin.respond(smallDesktop) {
+        border-top: none;
+    }
     ul {
+        margin: 4em 0;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+
+        @include mixin.respond(tab) {
+            flex-direction: row;
+            
+        }
     }
 
 }
