@@ -1,3 +1,5 @@
+@use '../../utils/mixins/' as mixin;
+
 .sectionTitle {
   // position: absolute;
   // top: 0;
@@ -10,11 +12,16 @@
   box-shadow: var(--box-shadow-300);
   display: flex;
   align-items: center;
+  font-size: var(--fs-600);
   text-transform: center;
   font-weight: var(--fw-extra-bold);
   text-align: center;
   letter-spacing: 0.125em;
   transform: skew(-25deg);
+
+  @include mixin.respond(tab) {
+    font-size: var(--fs-700);
+  }
 
   &::before,
   &::after {

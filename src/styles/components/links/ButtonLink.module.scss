@@ -16,6 +16,15 @@
     letter-spacing: 0.125em;
     @include mixin.transitionMain;
 
+    @include mixin.respond(smallDesktop) {
+        padding: 0.5em 1em;
+    }
+
+    @include mixin.respond(desktop) {
+        padding: 0.6em 1.2em;
+    
+    }
+
     &:hover, &:focus {
         box-shadow: var(--box-shadow-600);
         transform: translate(-5%, -5%);
