@@ -5,9 +5,10 @@
     height: 100%;
     width: 100%;
     border-top: var(--border-400);
-    display: grid;
-    // place-content: center;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     @include mixin.respond(smallDesktop) {
         border-top: none;
     }
