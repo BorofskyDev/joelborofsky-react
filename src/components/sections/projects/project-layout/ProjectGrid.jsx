@@ -1,4 +1,5 @@
 import {projectData} from '../data/projectData'
+import { getRandomBgClass } from './getRandomBgClass'
 import styles from '../../../../styles/components/sections/projects/ProjectGrid.module.scss'
 import ProjectCard from './ProjectCard'
 
@@ -7,17 +8,17 @@ function ProjectGrid({ className }) {
 
   return (
     <div className={`${sectionClasses}`}>
-      {projectData.map((project) => (
-        <ProjectCard
-          key={project.id}
-          title={project.title}
-          description={project.description}
-          stack={project.stack}
-          image={project.image}
-          github={project.github}
-          demo={project.demo}
-        />
-      ))}
+      {projectData.map((project) => {
+        const cardBgClass = getRandomBgClass(['bg4', 'bgDark', 'bgBlack'])
+
+        return (
+            <ProjectCard
+                key={project.id}
+                className={cardBgClass}
+                {...project}
+            />
+        )
+      })}
     </div>
   )
 }

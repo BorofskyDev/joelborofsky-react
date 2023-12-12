@@ -1,3 +1,4 @@
+import { getRandomBgClass } from './getRandomBgClass'
 import styles from '../../../../styles/components/sections/projects/ProjectCard.module.scss'
 
 function ProjectCard({
@@ -11,6 +12,8 @@ function ProjectCard({
   className,
 }) {
   const cardClasses = `${styles.projectCard} ${className} || ''`
+  const linkBgClass = getRandomBgClass(['bgDark', 'bgBlack'])
+  const linkBgClass2 = getRandomBgClass(['bgDark', 'bgBlack'])
 
   return (
     <div className={cardClasses} key={id}>
@@ -24,10 +27,10 @@ function ProjectCard({
         ))}
       </ul>
       <div className={styles.cardLinks}>
-        <a href={github} target='_blank' rel='noopener noreferrer'>
+        <a className={linkBgClass} href={github} target='_blank' rel='noopener noreferrer'>
           Github
         </a>
-        <a href={demo} target='_blank' rel='noopener noreferrer'>
+        <a className={linkBgClass2} href={demo} target='_blank' rel='noopener noreferrer'>
           Demo
         </a>
       </div>
