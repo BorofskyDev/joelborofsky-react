@@ -12,7 +12,7 @@ export const projectData = [
     id: 2,
     title: 'Blog',
     description: "It's a blog built using Nextjs",
-    stack: ['Nextjs', 'React', 'TailwindCSS', 'Markdown'],
+    stack: ['Nextjs', 'React', 'TailwindCSS'],
     image: 'https://via.placeholder.com/150',
     github: 'https://github.com',
     demo: 'https://github.com',
@@ -22,7 +22,7 @@ export const projectData = [
     title: 'React Three Fiber SaaS Website',
     description:
       "It's a fake financial company with 3D parallax effects and buttons",
-    stack: ['React', 'React Three Fiber', 'Drei', 'Framer Motion'],
+    stack: ['React', 'React Three Fiber', 'Drei'],
     image: 'https://via.placeholder.com/150',
     github: 'https://github.com',
     demo: 'https://github.com',
