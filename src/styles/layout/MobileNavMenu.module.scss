@@ -9,50 +9,51 @@
   padding: 4em 0;
   display: grid;
   place-items: center;
-  background-color: hsl(var(--color-light));
+  background-color: hsl(var(--color-light) / .6 );
+  backdrop-filter: blur(16px);
   overflow: hidden;
   z-index: 9000 !important; //This is for the developer
 
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: 20%;
-    left: 0;
-    height: 50vh;
-    width: 55vh;
-    border: var(--border-300);
-    border-left: none;
-    box-shadow: var(--box-shadow-400);
-    // border-radius: 50%;
-    background-image: linear-gradient(
+
+
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: 20%;
+  //   left: 0;
+  //   height: 50vh;
+  //   width: 55vh;
+  //   border: var(--border-300);
+  //   border-left: none;
+  //   box-shadow: var(--box-shadow-400);
+  //   background-image: linear-gradient(
       
-      hsla(var(--color-2)) 50%,
-      hsla(var(--color-1) ) 50%
-      );
-      clip-path: square(10% at left 10%);
-      z-index: -1;
-    }
+  //     hsla(var(--color-2)) 50%,
+  //     hsla(var(--color-1) ) 50%
+  //     );
+  //     clip-path: square(10% at left 10%);
+  //     z-index: -1;
+  //   }
     
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 35vh;
-      width: 45vh;
-      border: var(--border-300);
-      border-top: none;
-      border-right: none;
-      box-shadow: var(--box-shadow-400);
-    // border-radius: 50%;
-    background-image: linear-gradient(
-      to left,
-      hsla(var(--color-5)) 50%,
-      hsla(var(--color-6) ) 50%
-    );
-     clip-path: square(30% at right 10%);
-     z-index: -1;
-  }
+  //   &::after {
+  //     content: '';
+  //     position: absolute;
+  //     top: 0;
+  //     right: 0;
+  //     height: 35vh;
+  //     width: 45vh;
+  //     border: var(--border-300);
+  //     border-top: none;
+  //     border-right: none;
+  //     box-shadow: var(--box-shadow-400);
+  //   background-image: linear-gradient(
+  //     to left,
+  //     hsla(var(--color-5)) 50%,
+  //     hsla(var(--color-6) ) 50%
+  //   );
+  //    clip-path: square(30% at right 10%);
+  //    z-index: -1;
+  // }
 
   ul {
     height: 100%;
