@@ -5,6 +5,7 @@ import About from './components/sections/about/About'
 import Stack from './components/sections/stack/Stack'
 import Projects from './components/sections/projects/Projects'
 import Contact from './components/sections/contact/Contact'
+import Footer from './components/layout/footer/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Stack />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }

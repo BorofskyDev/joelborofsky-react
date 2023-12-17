@@ -1,0 +1,28 @@
+@use '../../utils/mixins/' as mixin;
+
+.footer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    'title tabs'
+    'links links';
+  border-top: var(--border-800);
+  border-bottom: var(--border-600);
+
+  @include mixin.respond(tab) {
+    flex-direction: row;
+  }
+
+  & h2 {
+    transform: rotate(-90deg);
+    margin: 6em auto;
+
+    & span {
+      transform: skew(0deg);
+    }
+  }
+}
