@@ -6,7 +6,7 @@ function FooterLinks() {
   return (
     <div className={style.footerLinks}>
       <MediumContainer className='bg2'>
-        <span>Things That Helped Me Learn</span>
+        <span>People That Helped Me Learn</span>
       </MediumContainer>
       <ul>
         <li>
