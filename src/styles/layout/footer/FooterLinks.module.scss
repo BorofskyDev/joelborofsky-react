@@ -1,3 +1,29 @@
+@use '../../utils/mixins/' as mixin;
+
 .footerLinks {
     grid-area: links;
+    height: 100%;
+    width: 100%;
+    padding: 0 2em;
+
+    @include mixin.respond(tab) {
+        padding-top: 4em;
+        border-top: var(--border-200);
+        border-bottom: var(--border-900);
+    }
+    
+
+    ul {
+        width: 100%;
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            padding: 0.5em 1em;
+        };
+
+    }
 }

@@ -2,15 +2,15 @@
 
 .footerBlocks {
     height: 100%;
-    width: 50vw;
     padding: 4em ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1em;
-
+    
     @include mixin.respond(tab) {
+        width: 50vw;
         gap: 2em;
         border-bottom: var(--border-200);
     }

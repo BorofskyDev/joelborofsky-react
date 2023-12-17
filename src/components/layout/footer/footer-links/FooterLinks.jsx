@@ -6,15 +6,31 @@ function FooterLinks() {
   return (
     <div className={style.footerLinks}>
       <MediumContainer className='bg2'>
-        Things That Helped Me Learn
+        <span>Things That Helped Me Learn</span>
       </MediumContainer>
       <ul>
         <li>
-          <ButtonLink href={`#`}>Scrimba</ButtonLink>
-          <ButtonLink href={`#`}>Jonas Schmedtmann</ButtonLink>
-          <ButtonLink href={`#`}>Bruno Simon</ButtonLink>
-          <ButtonLink href={`#`}>WebDev Simplified</ButtonLink>
-          <ButtonLink href={`#`}>Kevin Powell</ButtonLink>
+          <ButtonLink href={`#`} className='bg1'>
+            Scrimba
+          </ButtonLink>
+        </li>
+        <li>
+          <ButtonLink href={`#`} className='bg6'>
+            Jonas Schmedtmann
+          </ButtonLink>
+        </li>
+        <ButtonLink href={`#`} className='bg2'>
+          Bruno Simon
+        </ButtonLink>
+        <li>
+          <ButtonLink href={`#`} className='bg4'>
+            WebDev Simplified
+          </ButtonLink>
+        </li>
+        <li>
+          <ButtonLink href={`#`} className='bg3'>
+            Kevin Powell
+          </ButtonLink>
         </li>
       </ul>
     </div>
