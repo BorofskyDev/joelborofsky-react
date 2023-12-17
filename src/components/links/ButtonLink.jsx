@@ -4,7 +4,7 @@ function ButtonLink({ children, className, ...props }) {
   const linkClasses = `${styles.buttonLink} ${className || ''}`
 
   return (
-    <a {...props} className={linkClasses}>
+    <a {...props} className={linkClasses} target='_blank'>
       {children}
     </a>
   )

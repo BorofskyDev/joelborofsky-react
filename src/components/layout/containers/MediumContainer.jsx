@@ -1,10 +1,10 @@
 import styles from '../../../styles/layout/containers/MediumContainer.module.scss'
 
-function MediumContainer({ children }) {
-  const containerClasses = `${styles.largeContainer} ${className || ''}`
+function MediumContainer({ children, className }) {
+  const containerClasses = `${styles.mediumContainer} ${className || ''}`
 
   return (
-    <div className={style.mediumContainer}>{children}</div>
+    <div className={containerClasses}>{children}</div>
   )
 }
 export default MediumContainer
