@@ -10,17 +10,17 @@ function StackBoxOne() {
       <ul>
         <li>
           <ButtonLink className='bg1' href='#'>
-            HTML
+            Nextjs
           </ButtonLink>
         </li>
         <li>
           <ButtonLink className='bg2' href='#'>
-            CSS
+            Nodejs
           </ButtonLink>
         </li>
         <li>
           <ButtonLink className='bg3' href='#'>
-            JavaScript
+            Expressjs
           </ButtonLink>
         </li>
         <li>
@@ -30,7 +30,7 @@ function StackBoxOne() {
         </li>
         <li>
           <ButtonLink className='bg5' href='#'>
-            Nextjs
+            MongoDB
           </ButtonLink>
         </li>
       </ul>

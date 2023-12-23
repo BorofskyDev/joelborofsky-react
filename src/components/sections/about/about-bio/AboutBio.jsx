@@ -33,13 +33,11 @@ function AboutBio() {
       <div className={styles.bioCard}>
         <MediumHeader className='bg1'>What Else?</MediumHeader>
         <p>
-          Based in the USA, I am a frontend developer with an eye for design.
+          Based in the USA, I am a fullstack developer with an eye for design.
           After years in banking and finance, as well as helping start ups, I
-          decided to learn how to code. Since December 2021 I have focused on
-          traditional frontend tech (HTML, CSS, and Javascript) as well as
-          multiple libraries and pre-processors (SASS/SCSS, GSAP, Three.js,
-          Next.js, React, and React Three Fiber to name a few). While the design
-          tech has caught my eye, I also have kept my focus on accessibility and
+          decided to learn how to code. My passion is around making the web look good 
+          and function well. I view myself as a fullstack web app developer who favors the frontend.
+           While the design tech has caught my eye, I also have kept my focus on accessibility and
           ensuring that the web experience remains open and accessible to all.
           <br />
           <br />

@@ -15,10 +15,8 @@ function AboutSummary() {
         </SmallIcon>
         <MediumHeader className='bg3'>Developer</MediumHeader>
         <p>
-          Ever since writing my first code of JavaScript, I've been hooked on
-          the frontend. I love the challenge of building a great user experience
-          by utilizing SCSS, Styled Components, Three.js, all within a React
-          framework.
+          A frontend stack that includes HTML, CSS, JavaScript, and React (Nextjs), coupled with a 
+          backend stack that includes Node.js, Express.js, and MongoDB.
         </p>
       </AboutCard>
       <AboutCard className='bg1'>
@@ -27,9 +25,8 @@ function AboutSummary() {
         </SmallIcon>
         <MediumHeader className='bg6'>Designer</MediumHeader>
         <p>
-          It's not enough to build, I also like to design. I excel in knowing
-          what the end-user likes, but in a way that will help them achieve
-          their business goals as well.
+          I can handle development in the design stages with Figma, to implementing complex web designs via SCSS/SASS, 
+          Framer Motion, Threejs, TailwindCSS, and more, all with an accessibility-first approach.
         </p>
       </AboutCard>
       <AboutCard className='bg5'>
@@ -40,9 +37,9 @@ function AboutSummary() {
           Business<span className='font-handwriting'>(er)</span>
         </MediumHeader>
         <p>
-          I spent close to a decade in banking around sales and service. My
-          background in banking services, commercial credit, and investor
-          relations provide service to any company beyond the code.
+          Outside of development I have years of experience in sales, service, marketing, and financial services. 
+          At one point I was even a licensed banker and have experience in working with 
+          investors. 
         </p>
       </AboutCard>
     </div>

@@ -12,7 +12,7 @@ function HeroIntro() {
         My name is <span className='font-handwriting fs-600'>Joel</span>
       </p>
       <p>I am a...</p>
-      <LargeContainer className='bg2 font-handwriting'><span>Frontend Developer</span>
+      <LargeContainer className='bg2 font-handwriting'><span>Fullstack Developer</span>
       <SmallIcon className='icon2 bg6 fillVibrant3'>
         <NotBad />
         </SmallIcon>
