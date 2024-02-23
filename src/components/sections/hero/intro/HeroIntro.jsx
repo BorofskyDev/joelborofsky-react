@@ -1,13 +1,13 @@
-import XLHeading from '../../../headings/xl-heading/XLHeading'
 import LargeContainer from '../../../layout/containers/large-container/LargeContainer'
 import SmallIcon from '../../../icons/small-icon/SmallIcon'
 import { ReactComponent as NotBad } from '../../../../assets/icons/projects/not-bad.svg'
 import styles from './HeroIntro.module.scss'
+import MainHeading from '../../../headings/xl-heading/MainHeading'
 
 function HeroIntro() {
   return (
     <div className={styles.heroIntro}>
-      <XLHeading>Hello!</XLHeading>
+      <MainHeading>Hello!</MainHeading>
       <p>
         My name is <span className='font-handwriting fs-600'>Joel</span>
       </p>
