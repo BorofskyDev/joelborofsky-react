@@ -2,7 +2,7 @@
 
 .header {
   position:fixed;
-  height: 4em;
+  // height: 4em;
   width: 100vw;
   display: grid;
   padding: 0.5em 2em;
@@ -14,12 +14,14 @@
 
   @include respond(tab) {
     position: relative;
-    height: 6em;
+    // height: 6em;
     grid-template-colums: 1fr;
     grid-template-rows: 1fr 1fr;
     place-content: center;
     border: none;
     overflow: visible;
+    padding: 0;
+    margin-bottom: 0;
   }
 
 }
