@@ -15,13 +15,13 @@
   z-index: 9000 !important; //This is for the developer
 
   ul {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--fs-700);
-    gap: 3em;
+    // height: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // font-size: var(--fs-700);
+    // gap: 3em;
   }
 
   @include respond(tab){

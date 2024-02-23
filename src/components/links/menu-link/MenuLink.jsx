@@ -1,9 +1,9 @@
 import styles from './MenuLink.module.scss'
 
-function MenuLink({ children, ...props }) {
+function MenuLink({ content, ...props }) {
   return (
     <a {...props} className={styles.menuLink}>
-      {children}
+      <span>{content}</span>
     </a>
   )
 }

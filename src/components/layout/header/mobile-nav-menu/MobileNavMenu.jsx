@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import MenuLink from '../../../links/menu-link/MenuLink'
 import styles from './MobileNavMenu.module.scss'
+import NavMenu from '../nav-menu/NavMenu'
 
 const menuVariants = {
   open: {
@@ -19,24 +19,10 @@ const menuVariants = {
   },
 }
 
-function MobileNavMenu() {
+export default function MobileNavMenu() {
   return (
     <motion.nav className={styles.mobileMenu} variants={menuVariants}>
-      <ul>
-        <MenuLink href='#about' data-text='About'>
-          <span>About</span>
-        </MenuLink>
-        <MenuLink href='#skills' data-text='Skills'>
-          <span>Skills</span>
-        </MenuLink>
-        <MenuLink href='#projects' data-text='Projects'>
-          <span>Projects</span>
-        </MenuLink>
-        <MenuLink href='#contact' data-text='Contact'>
-          <span>Contact</span>
-        </MenuLink>
-      </ul>
+      <NavMenu />
     </motion.nav>
   )
 }
-export default MobileNavMenu
