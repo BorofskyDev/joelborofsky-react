@@ -7,7 +7,7 @@ import { ReactComponent as LibertyIcon } from '../../../../assets/icons/about/st
 import { ReactComponent as StarWarsIcon } from '../../../../assets/icons/about/starwars.svg'
 import styles from '../../../../styles/components/sections/about/AboutBio.module.scss'
 import SmallIcon from '../../../icons/SmallIcon'
-import MediumHeader from '../../../headings/MediumHeader'
+import MediumHeader from '../../../headings/medium-header/MediumHeader'
 
 function AboutBio() {
   return (

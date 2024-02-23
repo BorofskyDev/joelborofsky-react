@@ -1,5 +1,5 @@
 import styles from '../../../styles/components/sections/projects/Projects.module.scss'
-import SectionTitle from '../../headings/SectionTitle'
+import SectionTitle from '../../headings/section-title/SectionTitle'
 import ProjectGrid from './project-layout/ProjectGrid'
 
 function Projects({className}) {

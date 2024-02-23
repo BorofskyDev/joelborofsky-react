@@ -1,4 +1,4 @@
-import XLHeading from '../../../headings/XLHeading'
+import XLHeading from '../../../headings/xl-heading/XLHeading'
 import LargeContainer from '../../../layout/containers/LargeContainer'
 import styles from '../../../../styles/components/sections/hero/HeroIntro.module.scss'
 import SmallIcon from '../../../icons/SmallIcon'

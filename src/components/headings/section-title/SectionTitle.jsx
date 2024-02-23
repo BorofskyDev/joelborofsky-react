@@ -1,4 +1,4 @@
-import styles from '../../styles/components/headings/SectionTitle.module.scss'
+import styles from './SectionTitle.module.scss'
 
 function SectionTitle({ children, className }) {
   const containerClasses = `${styles.sectionTitle} ${className || ''}`

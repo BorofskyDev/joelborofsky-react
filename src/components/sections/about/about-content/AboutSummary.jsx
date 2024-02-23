@@ -3,7 +3,7 @@ import styles from '../../../../styles/components/sections/about/AboutSummary.mo
 import { ReactComponent as DeveloperIcon } from '../../../../assets/icons/about/developer.svg'
 import { ReactComponent as DesignerIcon } from '../../../../assets/icons/about/designer.svg'
 import { ReactComponent as BusinessIcon } from '../../../../assets/icons/about/banker.svg'
-import MediumHeader from '../../../headings/MediumHeader'
+import MediumHeader from '../../../headings/medium-header/MediumHeader'
 import SmallIcon from '../../../icons/SmallIcon'
 
 function AboutSummary() {

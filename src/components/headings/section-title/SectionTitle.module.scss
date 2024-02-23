@@ -1,4 +1,4 @@
-@use '../../utils/mixins/' as mixin;
+@use '../../../styles/utils/mixins' as *;
 
 .sectionTitle {
   // position: absolute;
@@ -19,7 +19,7 @@
   letter-spacing: 0.125em;
   transform: skew(-25deg);
 
-  @include mixin.respond(smallDesktop) {
+  @include respond(smallDesktop) {
     font-size: var(--fs-700);
   }
 

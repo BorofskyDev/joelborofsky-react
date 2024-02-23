@@ -1,5 +1,5 @@
 import styles from '../../../styles/layout/footer/Footer.module.scss'
-import SectionTitle from '../../headings/SectionTitle'
+import SectionTitle from '../../headings/section-title/SectionTitle'
 import FooterBlocks from './footer-blocks/FooterBlocks'
 import FooterLinks from './footer-links/FooterLinks'
 

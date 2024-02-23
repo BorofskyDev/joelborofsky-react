@@ -1,4 +1,4 @@
-import styles from '../../styles/components/headings/MediumHeader.module.scss'
+import styles from './MediumHeader.module.scss'
 
 function MediumHeader({ children, className }) {
   const headingClasses = `${styles.mediumHeader} ${className || ''}`

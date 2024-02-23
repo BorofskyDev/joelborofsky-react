@@ -1,6 +1,6 @@
 import FlexColumnSectionWrapper from '../../layout/section/FlexColumnSectionWrapper'
 import styles from '../../../styles/components/sections/about/About.module.scss'
-import SectionTitle from '../../headings/SectionTitle'
+import SectionTitle from '../../headings/section-title/SectionTitle'
 import AboutSummary from './about-content/AboutSummary'
 import AboutBio from './about-bio/AboutBio'
 

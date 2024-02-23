@@ -1,4 +1,4 @@
-import styles from '../../styles/components/headings/XLHeading.module.scss'
+import styles from './XLHeading.module.scss'
 
 function XLHeading({children}) {
   return (

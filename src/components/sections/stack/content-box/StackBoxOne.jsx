@@ -1,6 +1,6 @@
 import StackContainer from '../stack-containers/StackContainer'
 import styles from '../../../../styles/components/sections/stack/stack-boxes/StackBoxOne.module.scss'
-import SectionTitle from '../../../headings/SectionTitle'
+import SectionTitle from '../../../headings/section-title/SectionTitle'
 import ButtonLink from '../../../links/ButtonLink'
 
 function StackBoxOne() {
