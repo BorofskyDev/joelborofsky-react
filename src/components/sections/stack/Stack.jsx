@@ -1,8 +1,8 @@
-import styles from '../../../styles/components/sections/stack/Stack.module.scss'
-import StackBoxFour from './content-box/StackBoxFour'
-import StackBoxOne from './content-box/StackBoxOne'
-import StackBoxThree from './content-box/StackBoxThree'
-import StackBoxTwo from './content-box/StackBoxTwo'
+import StackBoxFour from './content-box/stack-boxes/stack-box-four/StackBoxFour'
+import StackBoxOne from './content-box/stack-boxes/stack-box-one/StackBoxOne'
+import StackBoxThree from './content-box/stack-boxes/stack-box-three/StackBoxThree'
+import StackBoxTwo from './content-box/stack-boxes/stack-box-two/StackBoxTwo'
+import styles from './Stack.module.scss'
 
 function Stack() {
   return (

@@ -1,4 +1,4 @@
-import styles from '../../../../styles/components/sections/stack/content-box/StackIconArea.module.scss'
+import styles from './StackIconArea.module.scss'
 
 function StackIconArea({children}) {
   return (

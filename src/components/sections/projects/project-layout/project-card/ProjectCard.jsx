@@ -1,5 +1,5 @@
-import { getRandomBgClass } from './getRandomBgClass'
-import styles from '../../../../styles/components/sections/projects/ProjectCard.module.scss'
+import { getRandomBgClass } from '../getRandomBgClass'
+import styles from './ProjectCard.module.scss'
 
 function ProjectCard({
   id,
@@ -27,10 +27,20 @@ function ProjectCard({
         ))}
       </ul>
       <div className={styles.cardLinks}>
-        <a className={linkBgClass} href={github} target='_blank' rel='noopener noreferrer'>
+        <a
+          className={linkBgClass}
+          href={github}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           Github
         </a>
-        <a className={linkBgClass2} href={demo} target='_blank' rel='noopener noreferrer'>
+        <a
+          className={linkBgClass2}
+          href={demo}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           Demo
         </a>
       </div>

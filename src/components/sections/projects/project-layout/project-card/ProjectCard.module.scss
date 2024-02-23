@@ -1,4 +1,4 @@
-@use '../../../utils/mixins/' as mixin;
+@use '../../../../../styles/utils/mixins/' as *;
 
 .projectCard {
   height: 15em;
@@ -15,7 +15,7 @@
     'image image stack stack'
     'image image desc desc';
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     height: 35em;
     width: 30em;
     box-shadow: var(--box-shadow-600);
@@ -40,7 +40,7 @@
   border-right: var(--border-200);
   background-color: hsl(var(--color-light));
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     border-right: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -55,7 +55,7 @@
     object-fit: cover;
     border-bottom: var(--border-200);
 
-    @include mixin.respond(tab) {
+    @include respond(tab) {
       height: 90%;
       border-bottom: none;
     }
@@ -70,7 +70,7 @@
     font-size: var(--fs-300);
     text-align: center;
 
-    @include mixin.respond(tab) {
+    @include respond(tab) {
       height: 10%;
     }
   }
@@ -87,7 +87,7 @@
   border-top: var(--border-200);
   border-bottom: var(--border-200);
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     border-right: var(--border-300);
     border-bottom: 0;
     border-top: 0;
@@ -111,7 +111,7 @@
   justify-content: center;
   gap: 0.5em;
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     border-left: var(--border-300);
     flex-direction: column;
     justify-content: space-around;
@@ -124,13 +124,13 @@
     font-size: var(--fs-300);
     box-shadow: var(--box-shadow-200);
     color: hsl(var(--color-dark));
-    @include mixin.transitionMain;
+    @include transitionMain;
 
-    @include mixin.respond(tab) {
+    @include respond(tab) {
       padding: 0.5em 1em;
     }
 
-    @include mixin.respond(desktop) {
+    @include respond(desktop) {
       padding: 0.75em 1.5em;
     }
 
@@ -156,7 +156,7 @@
   place-content: center;
   text-align: center;
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     border-top: var(--border-300);
   }
 }

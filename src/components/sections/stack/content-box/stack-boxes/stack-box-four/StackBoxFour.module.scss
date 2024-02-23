@@ -1,4 +1,4 @@
-@use '../../../../utils/mixins/' as mixin;
+@use '../../../../../../styles/utils/mixins' as *;
 
 .stackBoxFour {
     grid-area: stack-4;
@@ -6,7 +6,7 @@
     border-bottom: var(--border-400);
     border-top: var(--border-400);
 
-    @include mixin.respond(tab) {
+    @include respond(tab) {
         border-left: var(--border-400);
         border-top: none;
     }

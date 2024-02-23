@@ -1,4 +1,4 @@
-@use '../../../utils/mixins' as mixin;
+@use '../../../styles/utils/mixins' as *;
 
 .stack {
     height: 100%;
@@ -15,7 +15,7 @@
     border-bottom: var(--border-800);
     border-top: var(--border-800);
 
-    @include mixin.respond(tab) {
+    @include respond(tab) {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 

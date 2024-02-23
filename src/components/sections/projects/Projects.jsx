@@ -1,6 +1,6 @@
-import styles from '../../../styles/components/sections/projects/Projects.module.scss'
 import SectionTitle from '../../headings/section-title/SectionTitle'
-import ProjectGrid from './project-layout/ProjectGrid'
+import ProjectGrid from './project-layout/project-grid/ProjectGrid'
+import styles from './Projects.module.scss'
 
 function Projects({className}) {
   const sectionClasses = `${styles.projects} ${className} || ''`

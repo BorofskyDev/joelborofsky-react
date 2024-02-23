@@ -1,10 +1,10 @@
-import { ReactComponent as SassIcon } from '../../../../assets/icons/tech/sass.svg'
-import { ReactComponent as ThreeIcon } from '../../../../assets/icons/tech/threejs.svg'
-import { ReactComponent as TailwindIcon } from '../../../../assets/icons/tech/tailwind-css.svg'
-import { ReactComponent as StyledIcon } from '../../../../assets/icons/tech/styled-components.svg'
-import StackContainer from '../stack-containers/StackContainer'
-import styles from '../../../../styles/components/sections/stack/stack-boxes/StackBoxThree.module.scss'
-import MediumIcon from '../../../icons/medium-icon/MediumIcon'
+import { ReactComponent as SassIcon } from '../../../../../../assets/icons/tech/sass.svg'
+import { ReactComponent as ThreeIcon } from '../../../../../../assets/icons/tech/threejs.svg'
+import { ReactComponent as TailwindIcon } from '../../../../../../assets/icons/tech/tailwind-css.svg'
+import { ReactComponent as StyledIcon } from '../../../../../../assets/icons/tech/styled-components.svg'
+import StackContainer from '../../../stack-containers/StackContainer'
+import MediumIcon from '../../../../../icons/medium-icon/MediumIcon'
+import styles from './StackBoxThree.module.scss'
 
 function StackBoxThree() {
   return (
