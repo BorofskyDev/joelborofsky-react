@@ -4,7 +4,7 @@ import { ReactComponent as TailwindIcon } from '../../../../assets/icons/tech/ta
 import { ReactComponent as StyledIcon } from '../../../../assets/icons/tech/styled-components.svg'
 import StackContainer from '../stack-containers/StackContainer'
 import styles from '../../../../styles/components/sections/stack/stack-boxes/StackBoxThree.module.scss'
-import MediumIcon from '../../../icons/MediumIcon'
+import MediumIcon from '../../../icons/medium-icon/MediumIcon'
 
 function StackBoxThree() {
   return (

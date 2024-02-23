@@ -1,4 +1,4 @@
-import styles from '../../styles/components/icons/MediumIcon.module.scss'
+import styles from './MediumIcon.module.scss'
 
 function MediumIcon({ children, className }) {
   const containerClasses = `${styles.mediumIcon} ${className || ''}`

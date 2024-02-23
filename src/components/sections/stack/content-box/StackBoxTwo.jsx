@@ -4,7 +4,7 @@ import { ReactComponent as JsIcon } from '../../../../assets/icons/tech/javascri
 import { ReactComponent as ReactIcon } from '../../../../assets/icons/tech/react.svg'
 import StackContainer from '../stack-containers/StackContainer'
 import styles from '../../../../styles/components/sections/stack/stack-boxes/StackBoxTwo.module.scss'
-import MediumIcon from '../../../icons/MediumIcon'
+import MediumIcon from '../../../icons/medium-icon/MediumIcon'
 
 function StackBoxTwo() {
   return (
