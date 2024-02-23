@@ -1,4 +1,4 @@
-@use '../../../utils/mixins' as mixin;
+@use '../../../styles/utils/mixins' as *;
 
 .hero {
   // height: calc(100vh - 4em);
@@ -9,12 +9,12 @@
   // border-bottom: var(--border-800);
   // overflow: hidden;
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     height: 100%;
     margin-top: 3em;
   }
 
-  @include mixin.respond(smallDesktop) {
+  @include respond(smallDesktop) {
     flex-direction: row;
     margin-top: 0;
   }

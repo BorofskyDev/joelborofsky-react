@@ -1,6 +1,6 @@
-import styles from '../../../styles/components/sections/hero/Hero.module.scss'
 import HeroIntro from './intro/HeroIntro'
 import HeroPicture from './picture/HeroPicture'
+import styles from './Hero.module.scss'
 
 function Hero() {
   return (

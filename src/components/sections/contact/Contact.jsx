@@ -1,6 +1,6 @@
-import ContactContent from './ContactContent'
-import ContactLinks from './ContactLinks'
-import styles from '../../../styles/components/sections/contact/Contact.module.scss'
+import ContactContent from './contact-content/ContactContent'
+import ContactLinks from './contact-link/ContactLinks'
+import styles from './Contact.module.scss'
 
 
 function Contact() {

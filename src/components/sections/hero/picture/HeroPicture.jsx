@@ -1,4 +1,3 @@
-import styles from '../../../../styles/components/sections/hero/HeroPicture.module.scss'
 import ImageContainer from '../../../layout/containers/image-container/ImageContainer'
 import heroPicture from '../../../../assets/img/profile/joel-kid-1.jpg'
 import JPGImage from '../../../layout/containers/image-container/JPGImage'
@@ -6,6 +5,7 @@ import { ReactComponent as AstronautIcon } from '../../../../assets/icons/naviga
 import { ReactComponent as SunflowerIcon } from '../../../../assets/icons/navigation/sunflower.svg'
 import SmallIcon from '../../../icons/small-icon/SmallIcon'
 import SmallContainer from '../../../layout/containers/small-container/SmallContainer'
+import styles from './HeroPicture.module.scss'
 
 function HeroPicture() {
   return (

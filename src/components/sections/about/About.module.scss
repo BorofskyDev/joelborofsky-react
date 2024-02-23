@@ -1,11 +1,11 @@
-@use '../../../utils/mixins' as mixin;
+@use '../../../styles/utils/mixins' as *;
 
 .about {
     height: 100%;
     border-top: var(--border-800);
     border-bottom: var(--border-800);
 
-    @include mixin.respond(smallDesktop) {
+    @include respond(smallDesktop) {
         margin-top: 0;
         border-bottom: none;
     }

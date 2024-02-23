@@ -1,4 +1,4 @@
-@use '../../../utils/mixins/' as mixin;
+@use '../../../../styles/utils/mixins/' as *;
 
 .contactContent {
     height: 100%;
@@ -9,7 +9,7 @@
     align-items: center;
     row-gap: 2em;
     
-    @include mixin.respond(smallDesktop) {
+    @include respond(smallDesktop) {
         width: 50%;
         border-right: var(--border-400);
 

@@ -1,8 +1,8 @@
 import XLHeading from '../../../headings/xl-heading/XLHeading'
 import LargeContainer from '../../../layout/containers/large-container/LargeContainer'
-import styles from '../../../../styles/components/sections/hero/HeroIntro.module.scss'
 import SmallIcon from '../../../icons/small-icon/SmallIcon'
 import { ReactComponent as NotBad } from '../../../../assets/icons/projects/not-bad.svg'
+import styles from './HeroIntro.module.scss'
 
 function HeroIntro() {
   return (

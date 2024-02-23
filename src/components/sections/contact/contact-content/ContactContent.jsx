@@ -1,7 +1,7 @@
-import SectionTitle from '../../headings/section-title/SectionTitle'
-import XLHeading from '../../headings/xl-heading/XLHeading'
-import styles from '../../../styles/components/sections/contact/ContactContent.module.scss'
-import LargeContainer from '../../layout/containers/large-container/LargeContainer'
+import SectionTitle from '../../../headings/section-title/SectionTitle'
+import XLHeading from '../../../headings/xl-heading/XLHeading'
+import LargeContainer from '../../../layout/containers/large-container/LargeContainer'
+import styles from './ContactContent.module.scss'
 
 function ContactContent() {
   return (

@@ -1,4 +1,4 @@
-@use '../../../utils/mixins/' as mixin;
+@use '../../../../styles/utils/mixins/' as *;
 
 .contactLinks {
     // margin: 2em;
@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
 
-    @include mixin.respond(smallDesktop) {
+    @include respond(smallDesktop) {
         width: 50%;
         padding: 4em 2em;
         border-top: none;
@@ -24,7 +24,7 @@
         flex-direction: column;
         flex-wrap: wrap;
 
-        @include mixin.respond(tab) {
+        @include respond(tab) {
             flex-direction: row;
             margin: 0;
         }
