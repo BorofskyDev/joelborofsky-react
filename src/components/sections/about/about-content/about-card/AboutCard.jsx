@@ -1,6 +1,6 @@
 
 
-import styles from '../../../../styles/components/sections/about/AboutCard.module.scss'
+import styles from './AboutCard.module.scss'
 
 
 function AboutCard({ className,  children }) {

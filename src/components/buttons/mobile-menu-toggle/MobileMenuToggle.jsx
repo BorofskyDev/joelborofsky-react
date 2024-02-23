@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import styles from '../../styles/components/buttons/MobileMenuToggle.module.scss'
+import styles from './MobileMenuToggle.module.scss'
 
 
 

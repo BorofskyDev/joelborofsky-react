@@ -1,4 +1,4 @@
-@use '../../../utils/mixins' as mixin;
+@use '../../../../../styles/utils/mixins' as *;
 
 .aboutCard {
     position: relative;
@@ -14,11 +14,11 @@
     box-shadow: var(--box-shadow-600);
 
 
-   @include mixin.respond(tab) {
+   @include respond(tab) {
     padding: 1em 3em;
    }
 
-   @include mixin.respond(desktop) {
+   @include respond(desktop) {
     margin: 0 1em;
     height: 37em;
     align-items: center;
@@ -33,7 +33,7 @@
         box-shadow: var(--box-shadow-200);
         line-height: 1.75;
 
-        @include mixin.respond(desktop) {
+        @include respond(desktop) {
             height: 90%;
             display: flex;
             align-items: center;

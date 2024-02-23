@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import MenuLink from '../../../links/MenuLink'
+import MenuLink from '../../../links/menu-link/MenuLink'
 import styles from './MobileNavMenu.module.scss'
 
 const menuVariants = {

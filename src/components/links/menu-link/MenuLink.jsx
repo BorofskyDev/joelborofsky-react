@@ -1,4 +1,4 @@
-import styles from '../../styles/components/links/MenuLink.module.scss'
+import styles from './MenuLink.module.scss'
 
 function MenuLink({ children, ...props }) {
   return (

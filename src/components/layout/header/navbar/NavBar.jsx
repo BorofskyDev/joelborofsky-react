@@ -1,4 +1,4 @@
-import MenuLink from '../../../links/MenuLink'
+import MenuLink from '../../../links/menu-link/MenuLink'
 import styles from './NavBar.module.scss'
 
 function NavBar({ isSticky, navbarRef }) {

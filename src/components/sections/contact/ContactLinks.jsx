@@ -1,5 +1,5 @@
 import styles from '../../../styles/components/sections/contact/ContactLinks.module.scss'
-import ButtonLink from '../../links/ButtonLink'
+import ButtonLink from '../../links/external-link/ButtonLink'
 
 function ContactLinks() {
   return (

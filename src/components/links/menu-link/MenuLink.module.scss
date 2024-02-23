@@ -1,4 +1,4 @@
-@use '../../utils/mixins/' as mixin;
+@use '../../../styles/utils/mixins/' as *;
 
 .menuLink {
   position: relative;
@@ -20,7 +20,7 @@
     width: 100%;
     background-color: hsl(var(--color-link-text-hover));
     transform: scale3d(0, 0, 0);
-    @include mixin.transitionMain;
+    @include transitionMain;
   }
 
   &::after {
@@ -30,11 +30,11 @@
     height: 100%;
     color: hsl(var(--color-link-text-hover));
     transform: translate3d(150%, 0, 0);
-    @include mixin.transitionMain;
+    @include transitionMain;
   }
 
   & span {
-    @include mixin.transitionMain;
+    @include transitionMain;
   }
 
   &:hover::before,

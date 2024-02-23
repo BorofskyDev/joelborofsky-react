@@ -1,6 +1,6 @@
 import MediumContainer from '../../containers/medium-container/MediumContainer'
 import style from './FooterLinks.module.scss'
-import ButtonLink from '../../../links/ButtonLink'
+import ButtonLink from '../../../links/external-link/ButtonLink'
 
 function FooterLinks() {
   return (

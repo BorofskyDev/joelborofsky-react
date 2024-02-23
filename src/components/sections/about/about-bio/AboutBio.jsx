@@ -5,9 +5,9 @@ import SmallContainer from '../../../layout/containers/small-container/SmallCont
 import { ReactComponent as FalconIcon } from '../../../../assets/icons/about/falcon.svg'
 import { ReactComponent as LibertyIcon } from '../../../../assets/icons/about/statue-of-liberty.svg'
 import { ReactComponent as StarWarsIcon } from '../../../../assets/icons/about/starwars.svg'
-import styles from '../../../../styles/components/sections/about/AboutBio.module.scss'
 import SmallIcon from '../../../icons/small-icon/SmallIcon'
 import MediumHeader from '../../../headings/medium-header/MediumHeader'
+import styles from './AboutBio.module.scss'
 
 function AboutBio() {
   return (

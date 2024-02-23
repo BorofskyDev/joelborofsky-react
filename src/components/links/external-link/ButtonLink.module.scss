@@ -1,4 +1,4 @@
-@use '../../utils/mixins/' as mixin;
+@use '../../../styles/utils/mixins' as *;
 
 .buttonLink {
     margin: 1em 2em;
@@ -14,13 +14,13 @@
     font-weight: var(--fw-extra-bold);
     text-transform: uppercase;
     letter-spacing: 0.125em;
-    @include mixin.transitionMain;
+    @include transitionMain;
 
-    @include mixin.respond(smallDesktop) {
+    @include respond(smallDesktop) {
         padding: 0.5em 1em;
     }
 
-    @include mixin.respond(desktop) {
+    @include respond(desktop) {
         padding: 0.6em 1.2em;
     
     }

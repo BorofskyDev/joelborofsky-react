@@ -1,11 +1,10 @@
 import StackContainer from '../stack-containers/StackContainer'
 import styles from '../../../../styles/components/sections/stack/stack-boxes/StackBoxFour.module.scss'
-import ButtonLink from '../../../links/ButtonLink'
+import ButtonLink from '../../../links/external-link/ButtonLink'
 
 function StackBoxFour() {
   return (
     <StackContainer className={`bg2 ${styles.stackBoxFour}`}>
-      
       <ul>
         <li>
           <ButtonLink className='bg5' href='#'>

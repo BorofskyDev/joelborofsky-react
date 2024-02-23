@@ -1,4 +1,4 @@
-import styles from '../../styles/components/links/ButtonLink.module.scss'
+import styles from './ButtonLink.module.scss'
 
 function ButtonLink({ children, className, ...props }) {
   const linkClasses = `${styles.buttonLink} ${className || ''}`

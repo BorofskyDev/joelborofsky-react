@@ -1,10 +1,10 @@
-import AboutCard from './AboutCard'
-import styles from '../../../../styles/components/sections/about/AboutSummary.module.scss'
-import { ReactComponent as DeveloperIcon } from '../../../../assets/icons/about/developer.svg'
-import { ReactComponent as DesignerIcon } from '../../../../assets/icons/about/designer.svg'
-import { ReactComponent as BusinessIcon } from '../../../../assets/icons/about/banker.svg'
-import MediumHeader from '../../../headings/medium-header/MediumHeader'
-import SmallIcon from '../../../icons/small-icon/SmallIcon'
+import AboutCard from '../about-card/AboutCard'
+import styles from './AboutSummary.module.scss'
+import { ReactComponent as DeveloperIcon } from '../../../../../assets/icons/about/developer.svg'
+import { ReactComponent as DesignerIcon } from '../../../../../assets/icons/about/designer.svg'
+import { ReactComponent as BusinessIcon } from '../../../../../assets/icons/about/banker.svg'
+import MediumHeader from '../../../../headings/medium-header/MediumHeader'
+import SmallIcon from '../../../../icons/small-icon/SmallIcon'
 
 function AboutSummary() {
   return (
