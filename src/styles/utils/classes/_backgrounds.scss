@@ -1,9 +1,27 @@
-.bgLight { background-color: hsl(var(--color-light)); }
-.bgDark { background-color: hsl(var(--color-dark)); }
-.bgBlack { background-color: hsl(var(--color-black)); }
-.bg1 { background-color: hsl(var(--color-1)); }
-.bg2 { background-color: hsl(var(--color-2)); }
-.bg3 { background-color: hsl(var(--color-3)); }
-.bg4 { background-color: hsl(var(--color-4)); }
-.bg5 { background-color: hsl(var(--color-5)); }
-.bg6 { background-color: hsl(var(--color-6)); }
+.bgLight {
+  background-color: hsl(var(--color-light));
+}
+.bgDark {
+  background-color: hsl(var(--color-dark));
+}
+.bgBlack {
+  background-color: hsl(var(--color-black));
+}
+.bg1 {
+  background-color: hsl(var(--color-blue));
+}
+.bg2 {
+  background-color: hsl(var(--color-red));
+}
+.bg3 {
+  background-color: hsl(var(--color-violet));
+}
+.bg4 {
+  background-color: hsl(var(--color-yellow));
+}
+.bg5 {
+  background-color: hsl(var(--color-green));
+}
+.bg6 {
+  background-color: hsl(var(--color-pink));
+}
