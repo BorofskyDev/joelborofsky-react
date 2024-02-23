@@ -1,4 +1,4 @@
-import styles from '../../styles/layout/containers/ImageContainer.module.scss'
+import styles from './ImageContainer.module.scss'
 
 function JPGImage({ src, alt, className}) {
   const imageClasses = `${styles.image} ${className || ''}`

@@ -1,4 +1,4 @@
-import styles from '../../../styles/layout/containers/ImageContainer.module.scss'
+import styles from './ImageContainer.module.scss'
 
 function ImageContainer({ children, className}) {
   const containerClasses = `${styles.imageContainer} ${className || ''}`

@@ -1,12 +1,12 @@
-import ImageContainer from '../../../layout/containers/ImageContainer'
+import ImageContainer from '../../../layout/containers/image-container/ImageContainer'
 import olderJoel from '../../../../assets/img/profile/me-kyiv.jpg'
-import JPGImage from '../../../images/JPGImage'
+import JPGImage from '../../../layout/containers/image-container/JPGImage'
 import SmallContainer from '../../../layout/containers/SmallContainer'
 import { ReactComponent as FalconIcon } from '../../../../assets/icons/about/falcon.svg'
 import { ReactComponent as LibertyIcon } from '../../../../assets/icons/about/statue-of-liberty.svg'
 import { ReactComponent as StarWarsIcon } from '../../../../assets/icons/about/starwars.svg'
 import styles from '../../../../styles/components/sections/about/AboutBio.module.scss'
-import SmallIcon from '../../../icons/small-icon/small-icon/SmallIcon'
+import SmallIcon from '../../../icons/small-icon/SmallIcon'
 import MediumHeader from '../../../headings/medium-header/MediumHeader'
 
 function AboutBio() {
@@ -35,10 +35,11 @@ function AboutBio() {
         <p>
           Based in the USA, I am a fullstack developer with an eye for design.
           After years in banking and finance, as well as helping start ups, I
-          decided to learn how to code. My passion is around making the web look good 
-          and function well. I view myself as a fullstack web app developer who favors the frontend.
-           While the design tech has caught my eye, I also have kept my focus on accessibility and
-          ensuring that the web experience remains open and accessible to all.
+          decided to learn how to code. My passion is around making the web look
+          good and function well. I view myself as a fullstack web app developer
+          who favors the frontend. While the design tech has caught my eye, I
+          also have kept my focus on accessibility and ensuring that the web
+          experience remains open and accessible to all.
           <br />
           <br />
           In my downtime you'll find me playing Cities: Skylines (a lot),
