@@ -7,41 +7,51 @@
 .fillBlack {
   fill: hsl(var(--color-black));
 }
-.fill1 {
-  fill: hsl(var(--color-text-1));
+.fill-blue {
+  fill: hsl(var(--color-blue));
 }
-.fill2 {
-  fill: hsl(var(--color-text-2));
+
+.fill-red {
+  fill: hsl(var(--color-red));
 }
-.fill3 {
-  fill: hsl(var(--color-text-3));
+
+.fill-violet {
+  fill: hsl(var(--color-violet));
 }
-.fill4 {
-  fill: hsl(var(--color-text-4));
+
+.fill-yellow {
+  fill: hsl(var(--color-yellow));
 }
-.fill5 {
-  fill: hsl(var(--color-text-5));
+
+.fill-green {
+  fill: hsl(var(--color-green));
 }
-.fill6 {
-  fill: hsl(var(--color-text-6));
+
+.fill-pink {
+  fill: hsl(var(--color-pink));
 }
 
 /* Vibrant Fill */
-.fillVibrant1 {
+.fill-vibrant-blue {
   fill: hsl(var(--color-vibrant-blue));
 }
-.fillVibrant2 {
+
+.fill-vibrant-red {
   fill: hsl(var(--color-vibrant-red));
 }
-.fillVibrant3 {
+
+.fill-vibrant-purple {
   fill: hsl(var(--color-vibrant-purple));
 }
-.fillVibrant4 {
+
+.fill-vibrant-orange {
   fill: hsl(var(--color-vibrant-orange));
 }
-.fillVibrant5 {
+
+.fill-vibrant-green {
   fill: hsl(var(--color-vibrant-green));
 }
-.fillVibrant6 {
+
+.fill-vibrant-pink {
   fill: hsl(var(--color-vibrant-pink));
 }

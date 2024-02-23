@@ -18,6 +18,12 @@ function HeroPicture() {
         smallContainerBg='bg-yellow'
         title='Joel Borofsky'
         note="no really, it's me"
+        iconBg1='bg-vibrant-red'
+        iconFill1='fill-blue'
+        icon1={AstronautIcon}
+        iconBg2='bg-vibrant-green'
+        iconFill2='fill-blue'
+        icon2={SunflowerIcon}
       ></ImageContainer>
     </div>
   )

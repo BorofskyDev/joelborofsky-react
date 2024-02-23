@@ -12,20 +12,23 @@ export default function ImageContainer({
   smallContainerBg,
   title,
   note,
-  iconBg,
-  iconFill,
-  icon,
+  iconBg1,
+  iconFill1,
+  icon1,
+  iconBg2,
+  iconFill2,
+  icon2,
 }) {
   const containerClasses = `${styles.imageContainer} ${className || ''}`
 
   return (
     <div className={`${containerClasses} ${containerBg}`}>
       <JPGImage src={src} alt={alt} className={imageBg} />
-      <SmallContainer smallContainerBg={smallContainerBg}>
+      <SmallContainer className={smallContainerBg}>
         {title} <span className='font-handwriting'>{note}</span>
       </SmallContainer>
-      <SmallIcon className={`${iconBg} ${iconFill}`}>{icon}</SmallIcon>
-      <SmallIcon className={`${iconBg} ${iconFill}`}>{icon}</SmallIcon>
+      <SmallIcon className={`${iconBg1} ${iconFill1}`}>{icon1}</SmallIcon>
+      <SmallIcon className={`${iconBg2} ${iconFill2}`}>{icon2}</SmallIcon>
     </div>
   )
 }
