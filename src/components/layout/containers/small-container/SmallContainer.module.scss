@@ -13,7 +13,9 @@
 
   & span {
     position: absolute;
-    font-size: var(--fs-200);
-    transform: translate(50%, -35%) rotate(15deg) skew(-5deg);
+    font-size: var(--fs-300);
+    line-height: 95%;
+    letter-spacing: -0.01rem;
+    transform: translate(70%, -35%) rotate(15deg) skew(-5deg);
   }
 }
