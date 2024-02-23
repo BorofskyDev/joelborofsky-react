@@ -1,4 +1,4 @@
-import styles from '../../../styles/layout/containers/MediumContainer.module.scss'
+import styles from './MediumContainer.module.scss'
 
 function MediumContainer({ children, className }) {
   const containerClasses = `${styles.mediumContainer} ${className || ''}`

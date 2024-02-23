@@ -1,4 +1,4 @@
-import styles from '../../../styles/layout/containers/SmallContainer.module.scss'
+import styles from './SmallContainer.module.scss'
 
 function SmallContainer({ children, className }) {
   const containerClasses = `${styles.smallContainer} ${className || ''}`

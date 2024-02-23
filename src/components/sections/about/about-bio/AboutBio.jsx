@@ -1,7 +1,7 @@
 import ImageContainer from '../../../layout/containers/image-container/ImageContainer'
 import olderJoel from '../../../../assets/img/profile/me-kyiv.jpg'
 import JPGImage from '../../../layout/containers/image-container/JPGImage'
-import SmallContainer from '../../../layout/containers/SmallContainer'
+import SmallContainer from '../../../layout/containers/small-container/SmallContainer'
 import { ReactComponent as FalconIcon } from '../../../../assets/icons/about/falcon.svg'
 import { ReactComponent as LibertyIcon } from '../../../../assets/icons/about/statue-of-liberty.svg'
 import { ReactComponent as StarWarsIcon } from '../../../../assets/icons/about/starwars.svg'

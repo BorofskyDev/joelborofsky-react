@@ -1,4 +1,4 @@
-import styles from '../../../styles/layout/containers/LargeContainer.module.scss'
+import styles from './LargeContainer.module.scss'
 
 function LargeContainer({children, className}) {
   const containerClasses = `${styles.largeContainer} ${className || ''}`

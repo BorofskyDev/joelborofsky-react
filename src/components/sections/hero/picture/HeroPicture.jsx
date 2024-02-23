@@ -5,7 +5,7 @@ import JPGImage from '../../../layout/containers/image-container/JPGImage'
 import { ReactComponent as AstronautIcon } from '../../../../assets/icons/navigation/astronaut.svg'
 import { ReactComponent as SunflowerIcon } from '../../../../assets/icons/navigation/sunflower.svg'
 import SmallIcon from '../../../icons/small-icon/SmallIcon'
-import SmallContainer from '../../../layout/containers/SmallContainer'
+import SmallContainer from '../../../layout/containers/small-container/SmallContainer'
 
 function HeroPicture() {
   return (

@@ -1,4 +1,4 @@
-@use '../../utils/mixins/' as mixin;
+@use '../../../../styles/utils/mixins' as *;
 
 .footerBlocks {
     height: 100%;
@@ -9,7 +9,7 @@
     align-items: center;
     gap: 1em;
     
-    @include mixin.respond(tab) {
+    @include respond(tab) {
         width: 50vw;
         gap: 2em;
         border-bottom: var(--border-200);

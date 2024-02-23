@@ -1,6 +1,5 @@
-import MediumContainer from "../../containers/MediumContainer"
-import parentStyle from '../../../../styles/layout/footer/Footer.module.scss'
-import style from '../../../../styles/layout/footer/FooterBlocks.module.scss'
+import MediumContainer from "../../containers/medium-container/MediumContainer"
+import style from './FooterBlocks.module.scss'
 
 
 function FooterBlocks() {

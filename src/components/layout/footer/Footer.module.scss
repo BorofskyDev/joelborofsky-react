@@ -1,0 +1,58 @@
+@use '../../../styles/utils/mixins/' as *;
+
+.footer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    'title tabs'
+    'links links';
+  border-top: var(--border-800);
+  border-bottom: var(--border-600);
+
+  @include respond(tab) {
+    flex-direction: row;
+  }
+
+  & .footerTitle {
+    grid-area: title;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+
+    @include respond(tab) {
+      width: 50vw;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-right: var(--border-400);
+      padding-inline: 4em;
+      border-bottom: var(--border-200);
+      // gap: 2em;
+    }
+
+    & h2 {
+      transform: rotate(-90deg);
+      margin: 6em 0;
+      display: grid;
+      place-content: center;
+      place-items: center;
+
+      @include respond(tab) {
+        transform: rotate(-45deg);
+        // margin-left: 2em;
+        border-right: var(--border-400);
+      }
+
+      & span {
+        transform: skew(0deg);
+      }
+    }
+  }
+}
