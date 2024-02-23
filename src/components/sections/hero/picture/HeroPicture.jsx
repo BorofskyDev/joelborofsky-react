@@ -1,5 +1,5 @@
 import ImageContainer from '../../../layout/containers/image-container/ImageContainer'
-import heroPicture from '../../../../assets/img/profile/joel-kid-1.jpg'
+import heroPicture from '../../../../assets/img/profile/joel-kid-cutout.png'
 import JPGImage from '../../../layout/containers/image-container/JPGImage'
 import { ReactComponent as AstronautIcon } from '../../../../assets/icons/navigation/astronaut.svg'
 import { ReactComponent as SunflowerIcon } from '../../../../assets/icons/navigation/sunflower.svg'
