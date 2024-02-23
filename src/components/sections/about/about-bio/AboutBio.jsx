@@ -12,26 +12,26 @@ import styles from './AboutBio.module.scss'
 function AboutBio() {
   return (
     <div className={styles.aboutBio}>
-      <ImageContainer className='bg4'>
+      <ImageContainer className='bg-yellow'>
         <JPGImage
           src={olderJoel}
           alt='Joel Borofsky in his late 30s with a falcon on his shoulder'
         />
-        <SmallContainer className='bg3'>
+        <SmallContainer className='bg-violet'>
           Joel Borofsky<span className='font-handwriting'>(a bit older)</span>
         </SmallContainer>
-        <SmallIcon className='icon1 bg1 fillVibrant3'>
+        <SmallIcon className='icon1 bg-blue fillVibrant3'>
           <FalconIcon />
         </SmallIcon>
-        <SmallIcon className='icon4 bg3 fillVibrant1'>
+        <SmallIcon className='icon4 bg-violet fillVibrant1'>
           <LibertyIcon />
         </SmallIcon>
-        <SmallIcon className='icon3 bg1 fillVibrant2'>
+        <SmallIcon className='icon3 bg-blue fillVibrant2'>
           <StarWarsIcon />
         </SmallIcon>
       </ImageContainer>
       <div className={styles.bioCard}>
-        <MediumHeader className='bg1'>What Else?</MediumHeader>
+        <MediumHeader className='bg-blue'>What Else?</MediumHeader>
         <p>
           Based in the USA, I am a fullstack developer with an eye for design.
           After years in banking and finance, as well as helping start ups, I

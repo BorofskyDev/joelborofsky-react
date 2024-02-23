@@ -8,14 +8,14 @@ import styles from './StackBoxTwo.module.scss'
 
 function StackBoxTwo() {
   return (
-    <StackContainer className={`bg4 ${styles.stackBoxTwo}`}>
-      <MediumIcon className={`bg2 ${styles.stackIcon1}`}>
+    <StackContainer className={`bg-yellow ${styles.stackBoxTwo}`}>
+      <MediumIcon className={`bg-red ${styles.stackIcon1}`}>
         <HtmlIcon className='fillVibrant3' />
       </MediumIcon>
       <MediumIcon className={`bgLight ${styles.stackIcon2}`}>
         <CssIcon className='fillVibrant1' />
       </MediumIcon>
-      <MediumIcon className={`bg1 ${styles.stackIcon3}`}>
+      <MediumIcon className={`bg-blue ${styles.stackIcon3}`}>
         <JsIcon className='fillVibrant2' />
       </MediumIcon>
       <MediumIcon className={`bgDark ${styles.stackIcon4}`}>

@@ -6,8 +6,11 @@ import styles from './About.module.scss'
 
 function About() {
   return (
-    <FlexColumnSectionWrapper className={`${styles.about} ${'bg2'}`} id='about'>
-      <SectionTitle className='bg1'>About</SectionTitle>
+    <FlexColumnSectionWrapper
+      className={`${styles.about} ${'bg-red'}`}
+      id='about'
+    >
+      <SectionTitle className='bg-blue'>About</SectionTitle>
       <AboutSummary />
       <AboutBio />
     </FlexColumnSectionWrapper>

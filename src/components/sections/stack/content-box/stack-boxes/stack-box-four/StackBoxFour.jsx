@@ -4,35 +4,35 @@ import styles from './StackBoxFour.module.scss'
 
 function StackBoxFour() {
   return (
-    <StackContainer className={`bg2 ${styles.stackBoxFour}`}>
+    <StackContainer className={`bg-red ${styles.stackBoxFour}`}>
       <ul>
         <li>
-          <ButtonLink className='bg5' href='#'>
+          <ButtonLink className='bg-green' href='#'>
             TailwindCss
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg3' href='#'>
+          <ButtonLink className='bg-violet' href='#'>
             Styled Components
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg4' href='#'>
+          <ButtonLink className='bg-yellow' href='#'>
             Framer Motion
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg1' href='#'>
+          <ButtonLink className='bg-blue' href='#'>
             Threejs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg6' href='#'>
+          <ButtonLink className='bg-pink' href='#'>
             React Three Fiber
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg5' href='#'>
+          <ButtonLink className='bg-green' href='#'>
             Drei
           </ButtonLink>
         </li>

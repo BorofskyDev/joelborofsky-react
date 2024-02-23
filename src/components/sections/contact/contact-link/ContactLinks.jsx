@@ -6,27 +6,27 @@ function ContactLinks() {
     <div className={styles.contactLinks}>
       <ul>
         <li>
-          <ButtonLink className='bg2' href='#'>
+          <ButtonLink className='bg-red' href='#'>
             My GitHub
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg4' href='#'>
+          <ButtonLink className='bg-yellow' href='#'>
             My CodePen
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg6' href='#'>
+          <ButtonLink className='bg-pink' href='#'>
             My LinkedIn
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg1' href='#'>
+          <ButtonLink className='bg-blue' href='#'>
             My Freelance Site
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg5' href='#'>
+          <ButtonLink className='bg-green' href='#'>
             My Email
           </ButtonLink>
         </li>

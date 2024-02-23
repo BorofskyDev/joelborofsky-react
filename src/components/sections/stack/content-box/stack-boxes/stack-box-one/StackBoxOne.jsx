@@ -5,31 +5,31 @@ import styles from './StackBoxOne.module.scss'
 
 function StackBoxOne() {
   return (
-    <StackContainer className={`bg6 ${styles.stackBoxOne}`}>
-      <SectionTitle className='bg4'>Stack</SectionTitle>
+    <StackContainer className={`bg-pink ${styles.stackBoxOne}`}>
+      <SectionTitle className='bg-yellow'>Stack</SectionTitle>
       <ul>
         <li>
-          <ButtonLink className='bg1' href='#'>
+          <ButtonLink className='bg-blue' href='#'>
             Nextjs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg2' href='#'>
+          <ButtonLink className='bg-red' href='#'>
             Nodejs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg3' href='#'>
+          <ButtonLink className='bg-violet' href='#'>
             Expressjs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg4' href='#'>
+          <ButtonLink className='bg-yellow' href='#'>
             React
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg5' href='#'>
+          <ButtonLink className='bg-green' href='#'>
             MongoDB
           </ButtonLink>
         </li>

@@ -8,17 +8,17 @@ import styles from './StackBoxThree.module.scss'
 
 function StackBoxThree() {
   return (
-    <StackContainer className={`bg1 ${styles.stackBoxThree}`}>
-      <MediumIcon className={`bg6 ${styles.stackIcon1}`}>
+    <StackContainer className={`bg-blue ${styles.stackBoxThree}`}>
+      <MediumIcon className={`bg-pink ${styles.stackIcon1}`}>
         <SassIcon className='fillVibrant2' />
       </MediumIcon>
-      <MediumIcon className={`bg2 ${styles.stackIcon2}`}>
+      <MediumIcon className={`bg-red ${styles.stackIcon2}`}>
         <ThreeIcon className='fillVibrant5' />
       </MediumIcon>
-      <MediumIcon className={`bg4 ${styles.stackIcon3}`}>
+      <MediumIcon className={`bg-yellow ${styles.stackIcon3}`}>
         <TailwindIcon className='fillVibrant3' />
       </MediumIcon>
-      <MediumIcon className={`bg5 ${styles.stackIcon4}`}>
+      <MediumIcon className={`bg-green ${styles.stackIcon4}`}>
         <StyledIcon className='fillVibrant4' />
       </MediumIcon>
     </StackContainer>

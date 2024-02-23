@@ -5,30 +5,30 @@ import ButtonLink from '../../../links/external-link/ButtonLink'
 function FooterLinks() {
   return (
     <div className={style.footerLinks}>
-      <MediumContainer className='bg2'>
+      <MediumContainer className='bg-red'>
         <span>People That Helped Me Learn</span>
       </MediumContainer>
       <ul>
         <li>
-          <ButtonLink href={`#`} className='bg1'>
+          <ButtonLink href={`#`} className='bg-blue'>
             Scrimba
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink href={`#`} className='bg6'>
+          <ButtonLink href={`#`} className='bg-pink'>
             Jonas Schmedtmann
           </ButtonLink>
         </li>
-        <ButtonLink href={`#`} className='bg2'>
+        <ButtonLink href={`#`} className='bg-red'>
           Bruno Simon
         </ButtonLink>
         <li>
-          <ButtonLink href={`#`} className='bg4'>
+          <ButtonLink href={`#`} className='bg-yellow'>
             WebDev Simplified
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink href={`#`} className='bg3'>
+          <ButtonLink href={`#`} className='bg-violet'>
             Kevin Powell
           </ButtonLink>
         </li>

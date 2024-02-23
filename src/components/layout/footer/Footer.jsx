@@ -5,10 +5,9 @@ import FooterLinks from './footer-links/FooterLinks'
 
 function Footer() {
   return (
-    <footer className={`bg5 ${styles.footer}`}>
+    <footer className={`bg-green ${styles.footer}`}>
       <div className={styles.footerTitle}>
-      <SectionTitle className='bg6'>Footer!</SectionTitle>
-
+        <SectionTitle className='bg-pink'>Footer!</SectionTitle>
       </div>
       <FooterBlocks />
       <FooterLinks />

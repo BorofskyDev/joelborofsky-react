@@ -10,19 +10,15 @@ import styles from './HeroPicture.module.scss'
 function HeroPicture() {
   return (
     <div className={styles.heroPicture}>
-      <ImageContainer className='bg3'>
-        <JPGImage
-          src={heroPicture}
-          alt='Joel Borofsky around the age of 7 or 8 in a school photo'
-        />
-        <SmallContainer className='bg4'>Joel Borofsky</SmallContainer>
-        <SmallIcon className='icon1 bg6 fillVibrant2'>
-          <AstronautIcon />
-        </SmallIcon>
-        <SmallIcon className='icon2 bg4 fillVibrant1'>
-          <SunflowerIcon />
-        </SmallIcon>
-      </ImageContainer>
+      <ImageContainer
+        containerBg='bg-violet'
+        src={heroPicture}
+        alt='Joel Borofsky elementary school photo'
+        imageBg='bg-vibrant-blue'
+        smallContainerBg='bg-yellow'
+        title='Joel Borofsky'
+        note="no really, it's me"
+      ></ImageContainer>
     </div>
   )
 }

@@ -9,7 +9,7 @@ function ProjectGrid({ className }) {
   return (
     <div className={`${sectionClasses}`}>
       {projectData.map((project) => {
-        const cardBgClass = getRandomBgClass(['bg4', 'bgDark', 'bgBlack'])
+        const cardBgClass = getRandomBgClass(['bg-yellow', 'bgDark', 'bgBlack'])
 
         return (
           <ProjectCard key={project.id} className={cardBgClass} {...project} />

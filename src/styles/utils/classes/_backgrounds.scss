@@ -7,21 +7,45 @@
 .bgBlack {
   background-color: hsl(var(--color-black));
 }
-.bg1 {
+.bg-blue {
   background-color: hsl(var(--color-blue));
 }
-.bg2 {
+.bg-red {
   background-color: hsl(var(--color-red));
 }
-.bg3 {
+.bg-violet {
   background-color: hsl(var(--color-violet));
 }
-.bg4 {
+.bg-yellow {
   background-color: hsl(var(--color-yellow));
 }
-.bg5 {
+.bg-green {
   background-color: hsl(var(--color-green));
 }
-.bg6 {
+.bg-pink {
   background-color: hsl(var(--color-pink));
+}
+
+.bg-vibrant-blue {
+  background-color: hsl(var(--color-vibrant-blue));
+}
+
+.bg-vibrant-red {
+  background-color: hsl(var(--color-vibrant-red));
+}
+
+.bg-vibrant-purple {
+  background-color: hsl(var(--color-vibrant-purple));
+}
+
+.bg-vibrant-orange{
+  background-color: hsl(var(--color-vibrant-orange));
+}
+
+.bg-vibrant-green {
+  background-color: hsl(var(--color-vibrant-green));
+}
+
+.bg-vibrant-pink {
+  background-color: hsl(var(--color-vibrant-pink));
 }

@@ -6,9 +6,9 @@ import styles from './ContactContent.module.scss'
 function ContactContent() {
   return (
     <div className={styles.contactContent}>
-      <SectionTitle className='bg5'>Contact</SectionTitle>
+      <SectionTitle className='bg-green'>Contact</SectionTitle>
       <MainHeading>Hello Again!</MainHeading>
-      <LargeContainer className='bg4'>Let's work together</LargeContainer>
+      <LargeContainer className='bg-yellow'>Let's work together</LargeContainer>
       <p>
         I'm open for consulting, freelance work, or employment. Feel free to
         reach out!
