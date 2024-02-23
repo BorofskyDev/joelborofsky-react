@@ -4,7 +4,7 @@ import { ReactComponent as DeveloperIcon } from '../../../../assets/icons/about/
 import { ReactComponent as DesignerIcon } from '../../../../assets/icons/about/designer.svg'
 import { ReactComponent as BusinessIcon } from '../../../../assets/icons/about/banker.svg'
 import MediumHeader from '../../../headings/medium-header/MediumHeader'
-import SmallIcon from '../../../icons/SmallIcon'
+import SmallIcon from '../../../icons/small-icon/SmallIcon'
 
 function AboutSummary() {
   return (

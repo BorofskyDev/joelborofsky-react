@@ -1,4 +1,4 @@
-import styles from '../../styles/components/icons/SmallIcon.module.scss'
+import styles from './SmallIcon.module.scss'
 
 function SmallIcon({ children, className }) {
   const containerClasses = `${styles.smallIcon} ${className || ''}`

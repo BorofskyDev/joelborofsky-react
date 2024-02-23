@@ -6,7 +6,7 @@ import { ReactComponent as FalconIcon } from '../../../../assets/icons/about/fal
 import { ReactComponent as LibertyIcon } from '../../../../assets/icons/about/statue-of-liberty.svg'
 import { ReactComponent as StarWarsIcon } from '../../../../assets/icons/about/starwars.svg'
 import styles from '../../../../styles/components/sections/about/AboutBio.module.scss'
-import SmallIcon from '../../../icons/SmallIcon'
+import SmallIcon from '../../../icons/small-icon/small-icon/SmallIcon'
 import MediumHeader from '../../../headings/medium-header/MediumHeader'
 
 function AboutBio() {
