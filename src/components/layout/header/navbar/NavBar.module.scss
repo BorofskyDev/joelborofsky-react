@@ -1,11 +1,11 @@
-@use '../utils/mixins' as mixin;
+@use '../../../../styles/utils/mixins' as *;
 
 .navBar {
   display: none;
 
-  @include mixin.transitionMain;
+  @include transitionMain;
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     position: relative;
     grid-row: 2 / 2;
     height: 4em;
@@ -16,7 +16,7 @@
     border-top: var(--border-600);
     background-color: hsl(var(--color-light));
     z-index: 9000 !important; // This is for the developer
-    @include mixin.transitionMain;
+    @include transitionMain;
 
     & ul {
       height: 100%;
@@ -36,13 +36,13 @@
   border-top: none;
   height: 4em;
   padding: 1.5em 2em;
-  @include mixin.transitionMain;
+  @include transitionMain;
 
   & ul {
     font-size: var(--fs-500);
   }
 
-  @include mixin.respond(desktop) {
+  @include respond(desktop) {
     height: 2em;
   }
 }

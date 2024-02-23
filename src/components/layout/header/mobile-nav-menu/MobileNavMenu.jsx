@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import MenuLink from '../../links/MenuLink'
-import styles from '../../../styles/layout/MobileNavMenu.module.scss'
+import MenuLink from '../../../links/MenuLink'
+import styles from './MobileNavMenu.module.scss'
 
 const menuVariants = {
   open: {
@@ -18,9 +18,6 @@ const menuVariants = {
     },
   },
 }
-
-
-
 
 function MobileNavMenu() {
   return (

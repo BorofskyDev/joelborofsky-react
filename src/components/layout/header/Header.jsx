@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useStickyNav } from '../../../hooks/useStickyNav'
-import Banner from './Banner'
+import Banner from './banner/Banner'
 import MobileMenuToggle from '../../buttons/MobileMenuToggle'
-import styles from '../../../styles/layout/Header.module.scss'
-import MobileNavMenu from './MobileNavMenu'
-import NavBar from './NavBar'
+import MobileNavMenu from './mobile-nav-menu/MobileNavMenu'
+import NavBar from './navbar/NavBar'
+import styles from './Header.module.scss'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

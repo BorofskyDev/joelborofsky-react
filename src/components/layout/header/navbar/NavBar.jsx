@@ -1,9 +1,7 @@
+import MenuLink from '../../../links/MenuLink'
+import styles from './NavBar.module.scss'
 
-import MenuLink from '../../links/MenuLink'
-import styles from '../../../styles/layout/NavBar.module.scss'
-
-function NavBar({ isSticky, navbarRef}) {
-
+function NavBar({ isSticky, navbarRef }) {
   return (
     <nav
       className={`${styles.navBar} ${isSticky ? styles.stickyNav : ''}`}

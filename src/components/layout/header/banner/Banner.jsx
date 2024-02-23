@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../../styles/layout/Banner.module.scss'
+import styles from './Banner.module.scss'
 
 const Banner = React.forwardRef((props, ref) => {
   return (

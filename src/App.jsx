@@ -6,7 +6,7 @@ import Stack from './components/sections/stack/Stack'
 import Projects from './components/sections/projects/Projects'
 import Contact from './components/sections/contact/Contact'
 import Footer from './components/layout/footer/Footer'
-import Banner from './components/layout/header/Banner'
+import Banner from './components/layout/header/banner/Banner'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      {/* <Banner /> */}
+      <Banner />
     </>
   )
 }

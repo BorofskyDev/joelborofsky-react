@@ -1,4 +1,4 @@
-@use '../utils/mixins' as mixin;
+@use '../../../styles/utils/mixins' as *;
 
 .header {
   position:fixed;
@@ -12,7 +12,7 @@
   background-color: hsl(var(--color-light));
   z-index: 999999;
 
-  @include mixin.respond(tab) {
+  @include respond(tab) {
     position: relative;
     height: 6em;
     grid-template-colums: 1fr;
