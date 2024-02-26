@@ -26,11 +26,14 @@
    }
 
     & p {
+        min-height: 10rem;
         background-color: hsl(var(--color-light));
         padding: 2em 1em;
         border: var(--border-200);
         border-radius: var(--br-500);
         box-shadow: var(--box-shadow-200);
+        display: grid;
+        place-content: center;
         line-height: 1.75;
 
         @include respond(desktop) {

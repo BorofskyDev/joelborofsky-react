@@ -1,35 +1,31 @@
+import { icons } from '../../../icons/icons'
 import ImageContainer from '../../../layout/containers/image-container/ImageContainer'
-import olderJoel from '../../../../assets/img/profile/joel-cutout-kyiv.png'
-import JPGImage from '../../../layout/containers/image-container/JPGImage'
-import SmallContainer from '../../../layout/containers/small-container/SmallContainer'
-import { ReactComponent as FalconIcon } from '../../../../assets/icons/about/falcon.svg'
-import { ReactComponent as LibertyIcon } from '../../../../assets/icons/about/statue-of-liberty.svg'
-import { ReactComponent as StarWarsIcon } from '../../../../assets/icons/about/starwars.svg'
-import SmallIcon from '../../../icons/small-icon/SmallIcon'
+import aboutPicture from '../../../../assets/img/profile/joel-cutout-kyiv.png'
 import MediumHeader from '../../../headings/medium-header/MediumHeader'
 import styles from './AboutBio.module.scss'
 
 function AboutBio() {
   return (
     <div className={styles.aboutBio}>
-      <ImageContainer className='bg-yellow'>
-        <JPGImage
-          src={olderJoel}
-          alt='Joel Borofsky in his late 30s with a falcon on his shoulder'
-        />
-        <SmallContainer className='bg-violet'>
-          Joel Borofsky<span className='font-handwriting'>(a bit older)</span>
-        </SmallContainer>
-        <SmallIcon className='icon1 bg-blue fillVibrant3'>
-          <FalconIcon />
-        </SmallIcon>
-        <SmallIcon className='icon4 bg-violet fillVibrant1'>
-          <LibertyIcon />
-        </SmallIcon>
-        <SmallIcon className='icon3 bg-blue fillVibrant2'>
-          <StarWarsIcon />
-        </SmallIcon>
-      </ImageContainer>
+      <ImageContainer
+        containerBg='bg-yellow'
+        src={aboutPicture}
+        alt='Joel Borofsky with a falcon on his shoulder'
+        imageBg='bg-vibrant-pink'
+        smallContainerBg='bg-violet'
+        title='Joel Borofsky'
+        note='a bit older'
+        iconBg1='bg-blue'
+        iconFill1='fill-vibrant-blue'
+        icon1={icons.falcon.path}
+        xmlns1={icons.falcon.xmlns}
+        viewBox1={icons.falcon.viewBox}
+        iconBg2='bg-vibrant-blue'
+        iconFill2='fill-red'
+        icon2={icons.liberty.path}
+        xmlns2={icons.liberty.xmlns}
+        viewBox2={icons.liberty.viewBox}
+      />
       <div className={styles.bioCard}>
         <MediumHeader className='bg-blue'>What Else?</MediumHeader>
         <p>
