@@ -1,12 +1,9 @@
 import { motion } from 'framer-motion'
 import styles from './MobileMenuToggle.module.scss'
 
-
-
 const topVariants = {
   closed: { rotate: 0, top: '0.25em', left: '0' },
-  opened: { rotate: 45, top: '0.9em', left: '0.5em'},
-  
+  opened: { rotate: 45, top: '0.9em', left: '0.5em' },
 }
 
 const middleVariants = {
@@ -20,8 +17,6 @@ const bottomVariants = {
 }
 
 function MobileMenuToggle({ isMenuOpen, handleMenuToggle }) {
-
-
   return (
     <button
       className={styles.menuToggle}

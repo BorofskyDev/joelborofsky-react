@@ -1,10 +1,7 @@
 @use '../../../styles/utils/mixins' as *;
 
 .sectionTitle {
-  // position: absolute;
-  // top: 0;
-  // left: 50%;
-  margin: 2em auto;
+  margin: var(--spacing-900) auto;
   height: 3em;
   width: 8em;
   border: var(--border-300);
