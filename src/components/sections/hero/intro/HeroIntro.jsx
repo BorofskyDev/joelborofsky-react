@@ -20,7 +20,7 @@ function HeroIntro() {
           icon={notBad.path}
           viewBox={notBad.viewBox}
           xmlns={notBad.xmlns}
-          className='bg-pink fill-vibrant-blue'
+          className='bg-light fill-vibrant-blue'
         />
       </LargeContainer>
     </div>

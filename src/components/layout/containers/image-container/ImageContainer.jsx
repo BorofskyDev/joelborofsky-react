@@ -15,7 +15,11 @@ export default function ImageContainer({
   iconBg1,
   iconFill1,
   icon1,
+  xmlns1,
+  viewBox1,
   iconBg2,
+  xmlns2,
+  viewBox2,
   iconFill2,
   icon2,
 }) {
@@ -27,8 +31,8 @@ export default function ImageContainer({
       <SmallContainer className={smallContainerBg}>
         {title} <span className='font-handwriting'>{note}</span>
       </SmallContainer>
-      <SmallIcon className={`${iconBg1} ${iconFill1}`}>{icon1}</SmallIcon>
-      <SmallIcon className={`${iconBg2} ${iconFill2}`}>{icon2}</SmallIcon>
+      <SmallIcon className={`${iconBg1} ${iconFill1} `} position='left' icon={icon1} xmlns={xmlns1} viewBox={viewBox1} iconFill={iconFill1} />
+      <SmallIcon className={`${iconBg2} ${iconFill2} `} position='right' icon={icon2} xmlns={xmlns2} viewBox={viewBox2} iconFill={iconFill2} />
     </div>
   )
 }

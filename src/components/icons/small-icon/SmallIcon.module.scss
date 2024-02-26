@@ -1,11 +1,20 @@
+@use '../../../styles/utils/mixins' as *;
+
 .smallIcon {
     position: absolute;
-    height: 4em;
-    width: 4em;
-    border: var(--border-300);
-    border-radius: var(--br-900);
-    display: grid;
-    place-items: center;
-    // padding: 0.4em;
-    box-shadow: var(--box-shadow-300);
+    @include icon(3.875rem, 3.875rem, var(--box-shadow-200));
+
+  
+}
+
+.left {
+  left: 0;
+  top: 0;
+  transform: rotate(25deg);
+}
+
+.right {
+  right: 0;
+  top: 0;
+  transform: rotate(-25deg);
 }

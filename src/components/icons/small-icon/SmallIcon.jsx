@@ -8,16 +8,23 @@ export default function SmallIcon({
   xmlns,
   iconFill,
   className,
+  position,
 }) {
-  const iconClasses = `${styles.smallIcon} ${className || ''}`
-  const isLeft = className.includes(styles.left)
+  const positionClass = position === 'left' ? styles.left : styles.right;
+  const iconClasses = `${styles.smallIcon} ${positionClass} ${className || ''}`
 
   return (
     <motion.div
       className={iconClasses}
-      initial={{ x: isLeft ? -150 : 150, opacity: 0 }}
-      whileInView={{ rotate: isLeft ? 325 : -315, x: 0, opacity: 1 }}
-      transition={{ duration: 0.3, ease: 'easeInOut' }}
+      initial={{ x: position === 'left' ? 150 : -150, opacity: 1 }}
+      whileInView={{ rotate: position === 'left' ? 325 : -315, x: 0, opacity: 1 }}
+      transition={{
+        type: 'spring',
+        stiffness: 160,
+        damping: 12,
+        duration: 0.3,
+        ease: 'easeInOut',
+      }}
       aria-hidden
     >
       <SmallIconImg
