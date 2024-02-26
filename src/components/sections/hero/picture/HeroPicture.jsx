@@ -7,7 +7,7 @@ function HeroPicture() {
   return (
     <div className={styles.heroPicture}>
       <ImageContainer
-        containerBg='bg-blue'
+        containerBg='bg-green'
         src={heroPicture}
         alt='Joel Borofsky elementary school photo'
         imageBg='bg-vibrant-blue'
