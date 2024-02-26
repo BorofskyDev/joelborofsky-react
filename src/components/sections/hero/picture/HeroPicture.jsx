@@ -13,7 +13,7 @@ function HeroPicture() {
         imageBg='bg-vibrant-blue'
         smallContainerBg='bg-orange'
         title='Joel Borofsky'
-        note="as a wee lad"
+        note="a wee lad"
         iconBg1='bg-vibrant-purple'
         iconFill1='fill-vibrant-red'
         icon1={icons.astronaut.path}
