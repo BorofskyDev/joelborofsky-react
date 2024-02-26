@@ -6,6 +6,7 @@ import styles from './MobileMenuToggle.module.scss'
 const topVariants = {
   closed: { rotate: 0, top: '0.25em', left: '0' },
   opened: { rotate: 45, top: '0.9em', left: '0.5em'},
+  
 }
 
 const middleVariants = {
@@ -31,6 +32,13 @@ function MobileMenuToggle({ isMenuOpen, handleMenuToggle }) {
       <motion.span
         variants={topVariants}
         animate={isMenuOpen ? 'opened' : 'closed'}
+        transition={{
+          type: 'spring',
+          stiffness: 260,
+          damping: 15,
+          duration: 0.3,
+          ease: 'easeInOut',
+        }}
       ></motion.span>
       <motion.span
         variants={middleVariants}
@@ -39,6 +47,13 @@ function MobileMenuToggle({ isMenuOpen, handleMenuToggle }) {
       <motion.span
         variants={bottomVariants}
         animate={isMenuOpen ? 'opened' : 'closed'}
+        transition={{
+          type: 'spring',
+          stiffness: 260,
+          damping: 15,
+          duration: 0.3,
+          ease: 'easeInOut',
+        }}
       ></motion.span>
     </button>
   )
