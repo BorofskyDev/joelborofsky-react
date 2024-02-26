@@ -1,12 +1,31 @@
+import { motion } from 'framer-motion'
+import SmallIconImg from './small-icon-img/SmallIconImg'
 import styles from './SmallIcon.module.scss'
 
-function SmallIcon({ children, className }) {
-  const containerClasses = `${styles.smallIcon} ${className || ''}`
+export default function SmallIcon({
+  icon,
+  viewBox,
+  xmlns,
+  iconFill,
+  className,
+}) {
+  const iconClasses = `${styles.smallIcon} ${className || ''}`
+  const isLeft = className.includes(styles.left)
 
   return (
-    <div className={containerClasses} aria-hidden>
-        {children}
-    </div>
+    <motion.div
+      className={iconClasses}
+      initial={{ x: isLeft ? -150 : 150, opacity: 0 }}
+      whileInView={{ rotate: isLeft ? 325 : -315, x: 0, opacity: 1 }}
+      transition={{ duration: 0.3, ease: 'easeInOut' }}
+      aria-hidden
+    >
+      <SmallIconImg
+        icon={icon}
+        viewBox={viewBox}
+        xmlns={xmlns}
+        iconFill={iconFill}
+      />
+    </motion.div>
   )
 }
-export default SmallIcon

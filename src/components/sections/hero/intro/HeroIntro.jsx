@@ -1,10 +1,12 @@
 import LargeContainer from '../../../layout/containers/large-container/LargeContainer'
-import SmallIcon from '../../../icons/small-icon/SmallIcon'
-import { ReactComponent as NotBad } from '../../../../assets/icons/projects/not-bad.svg'
-import styles from './HeroIntro.module.scss'
 import MainHeading from '../../../headings/xl-heading/MainHeading'
+import MediumIcon from '../../../icons/medium-icon/MediumIcon'
+import { icons } from '../../../icons/icons'
+import styles from './HeroIntro.module.scss'
 
 function HeroIntro() {
+  const notBad = icons.notBad
+
   return (
     <div className={styles.heroIntro}>
       <MainHeading>Hello!</MainHeading>
@@ -14,9 +16,12 @@ function HeroIntro() {
       <p>I am a...</p>
       <LargeContainer className='bg-red font-handwriting'>
         <span>Fullstack Developer</span>
-        <SmallIcon className='icon2 bg-pink fillVibrant3'>
-          <NotBad />
-        </SmallIcon>
+        <MediumIcon
+          icon={notBad.path}
+          viewBox={notBad.viewBox}
+          xmlns={notBad.xmlns}
+          className='bg-pink fill-vibrant-blue'
+        />
       </LargeContainer>
     </div>
   )

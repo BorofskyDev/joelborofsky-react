@@ -1,0 +1,10 @@
+@mixin icon($width, $height, $boxShadow) {
+    width: $width;
+    height: $height;
+    box-shadow: $boxShadow;
+    border: var(--border-400);
+    border-radius: var(--br-600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

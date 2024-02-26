@@ -24,7 +24,7 @@ function HeroPicture() {
         iconBg2='bg-vibrant-green'
         iconFill2='fill-blue'
         icon2={SunflowerIcon}
-      ></ImageContainer>
+      />
     </div>
   )
 }
