@@ -19,8 +19,8 @@
    }
 
    @include respond(desktop) {
-    margin: 0 1em;
-    height: 37em;
+    margin: 0 1rem;
+    min-height: 36rem;
     align-items: center;
     justify-content: center;
    }

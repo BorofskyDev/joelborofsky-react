@@ -2,17 +2,14 @@
 
 .sectionTitle {
   margin: var(--spacing-900) auto;
-  height: 3em;
-  width: 8em;
+  padding: var(--spacing-200) var(--spacing-400);
   border: var(--border-300);
   border-radius: var(--br-900);
   box-shadow: var(--box-shadow-300);
-  display: flex;
-  align-items: center;
+  display: grid;
+  place-content: center;
   font-size: var(--fs-700);
-  text-transform: center;
   font-weight: var(--fw-extra-bold);
-  text-align: center;
   letter-spacing: 0.125em;
   transform: skew(-25deg);
 
@@ -30,14 +27,15 @@
     box-shadow: inherit;
     border: inherit;
     border-radius: inherit;
+    place-self: center;
   }
 
   &::before {
-    left: -1.5em;
+    left: -1em;
   }
 
   &::after {
-    right: -1.5em;
+    right: -1em;
   }
 
   & span {

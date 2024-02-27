@@ -10,11 +10,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  // flex-wrap: wrap;
 
 
   @include respond(desktop) {
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 0;
+    // flex-direction: row;
+    justify-content: space-around;
+    // gap: 0;
   }
 }
