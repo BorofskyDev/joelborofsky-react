@@ -1,4 +1,16 @@
+@use '../../../../styles/utils/mixins' as *;
+
 .smallIconImg {
     width: 2.8125rem;
     height: 3.4375rem;
+
+    @include respond(tab) {
+        width: 3.4375rem;
+        height: 4.0625rem;
+    }
+
+    @include respond(desktop) {
+        width: 5.15625rem;
+        height: 5.78125rem;
+    }
 }

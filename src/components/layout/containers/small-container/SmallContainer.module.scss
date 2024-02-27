@@ -1,8 +1,10 @@
+@use '../../../../styles/utils/mixins' as *;
+
 .smallContainer {
   position: relative;
-  margin: 1em auto;
+  margin: var(--spacing-200) auto;
   margin-bottom: 0;
-  padding: 0.5em 1em;
+  padding: var(--spacing-100) var(--spacing-200);
   border: var(--border-200);
   border-radius: var(--br-900);
   box-shadow: var(--box-shadow-400);
@@ -11,11 +13,19 @@
   letter-spacing: 0.125em;
   font-size: var(--fs-400);
 
+  @include respond(desktop){
+    padding: var(--spacing-200) var(--spacing-300);
+  }
+
   & span {
     position: absolute;
     font-size: var(--fs-300);
     line-height: 95%;
     letter-spacing: -0.01rem;
     transform: translate(105%, -55%) rotate(15deg) skew(-5deg);
+
+    @include respond(desktop){
+      transform: translate(185%, -55%) rotate(15deg) skew(-5deg);
+    }
   }
 }

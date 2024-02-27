@@ -1,3 +1,5 @@
+@use '../../../../styles/utils/mixins' as *;
+
 .imageContainer {
   position: relative;
   min-height: 21.25rem;
@@ -9,7 +11,12 @@
   box-shadow: var(--box-shadow-400);
   display: grid;
   place-items: center;
-  padding: 1em 0;
+  padding: var(--spacing-400);
+
+  @include respond(desktop){
+    min-height: 28rem;
+    min-width: 26rem;
+  }
 
   & .image {
     // position: absolute;
@@ -20,16 +27,11 @@
     border: var(--border-400);
     border-radius: var(--br-600);
     box-shadow: var(--box-shadow-300);
+
+    @include respond(desktop){
+      height: 20em;
+      width: 18em;
+    }
   }
 }
-// .left {
-//   left: 0;
-//   top: 0;
-//   transform: rotate(25deg);
-// }
 
-// .right {
-//   right: 0;
-//   top: 0;
-//   transform: rotate(-25deg);
-// }

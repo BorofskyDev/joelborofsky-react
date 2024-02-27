@@ -1,0 +1,11 @@
+@use '../mixins' as *;
+
+.top-right {
+  bottom: var(--spacing-400);
+  right: var(--spacing-100);
+
+  @include respond(smallDesktop) {
+    bottom: var(--spacing-500);
+    right: var(--spacing-100);
+  }
+}

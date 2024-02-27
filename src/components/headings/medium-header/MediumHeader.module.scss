@@ -1,3 +1,5 @@
+@use '../../../styles/utils/mixins' as *;
+
 .mediumHeader {
   position: relative;
   width: 100%;
@@ -12,6 +14,7 @@
   font-size: var(--fs-600);
   font-weight: var(--fw-extra-bold);
 
+  
   & span {
     position: absolute;
     text-align: center;

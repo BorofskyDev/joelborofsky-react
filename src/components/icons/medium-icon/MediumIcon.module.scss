@@ -2,7 +2,6 @@
 
 .mediumIcon {
   position: absolute;
-  bottom: var(--spacing-400);
-  right: var(--spacing-100);
+  
   @include icon(4.6875rem, 4.6785rem, var(--box-shadow-200));
 }

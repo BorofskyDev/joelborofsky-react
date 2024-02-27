@@ -29,19 +29,23 @@ function AboutBio() {
       <div className={styles.bioCard}>
         <MediumHeader className='bg-blue'>What Else?</MediumHeader>
         <p>
-          Based in the USA, I am a fullstack developer with an eye for design.
-          After years in banking and finance, as well as helping start ups, I
-          decided to learn how to code. My passion is around making the web look
-          good and function well. I view myself as a fullstack web app developer
-          who favors the frontend. While the design tech has caught my eye, I
-          also have kept my focus on accessibility and ensuring that the web
-          experience remains open and accessible to all.
+          Hello there! 
           <br />
           <br />
-          In my downtime you'll find me playing Cities: Skylines (a lot),
-          working on my own projects, taking walks, working out, and when time
-          and money permit, traveling. I enjoy discovering new experiences
-          wherever I happen to find myself.
+          
+          Based in the USA, I’m a fullstack
+          developer who also loves web design and UI/UX. After spending years
+          doing banking and finance in North Carolina and New York, as well as
+          helping a few start ups and even attempting one of my own, I decided to
+          do the meme and learn to code. My passion is around making the web
+          beautiful, accessible, fun, and - probably most importantly - working.
+
+          <br />
+          <br />
+
+          My stack of HTML, CSS, JavaScript, Next.js, Node.js, MongoDB, and
+          Figma ensure that I’m a good fit for your team. I’ve also been told
+          I’m fun!
         </p>
       </div>
     </div>
