@@ -8,9 +8,9 @@
   grid-template-areas:
     'icon1 icon2'
     'icon3 icon4';
-  @include respond(tab) {
-    border-left: var(--border-400);
-  }
+
+ 
+
 
   & .stackIcon1 {
     grid-area: icon1;

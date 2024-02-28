@@ -12,8 +12,8 @@
     'stack-2'
     'stack-4'
     'stack-3';
-    border-bottom: var(--border-800);
-    border-top: var(--border-800);
+    border-bottom: var(--border-600);
+    border-top: var(--border-600);
 
     @include respond(tab) {
         grid-template-columns: repeat(2, 1fr);

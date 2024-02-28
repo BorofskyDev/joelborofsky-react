@@ -11,7 +11,7 @@
 
   @include respond(tab) {
     border-right: var(--border-400);
-    // border-bottom: 0;
+    border-bottom: 0;
   }
 
   .stackIcon1 {

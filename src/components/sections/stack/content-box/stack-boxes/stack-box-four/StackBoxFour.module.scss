@@ -7,7 +7,7 @@
     border-top: var(--border-400);
 
     @include respond(tab) {
-        border-left: var(--border-400);
         border-top: none;
+        border-bottom: none;
     }
 }
