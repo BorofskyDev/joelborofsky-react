@@ -4,9 +4,11 @@
     height: 100%;
     border-top: var(--border-800);
     border-bottom: var(--border-800);
+    gap: var(--spacing-900);
 
     @include respond(smallDesktop) {
         margin-top: 0;
         border-bottom: none;
+        gap: 0;
     }
 }
