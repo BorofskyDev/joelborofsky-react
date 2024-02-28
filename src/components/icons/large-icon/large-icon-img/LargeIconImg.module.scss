@@ -1,4 +1,5 @@
+@use '../../../../styles/utils/mixins' as *;
+
 .largeIconImg {
-    width: 4.275rem;
-    height: 4.275rem;    
+    @include iconImg(4.275rem, 4.275rem);
 }

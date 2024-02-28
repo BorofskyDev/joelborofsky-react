@@ -8,12 +8,12 @@ function StackBoxFour() {
       <ul>
         <li>
           <ButtonLink className='bg-green' href='#'>
-            TailwindCss
+            Figma
           </ButtonLink>
         </li>
         <li>
           <ButtonLink className='bg-violet' href='#'>
-            Styled Components
+            SASS/SCSS
           </ButtonLink>
         </li>
         <li>
@@ -23,17 +23,17 @@ function StackBoxFour() {
         </li>
         <li>
           <ButtonLink className='bg-blue' href='#'>
-            Threejs
+            HTML5 (Babel)
           </ButtonLink>
         </li>
         <li>
           <ButtonLink className='bg-pink' href='#'>
-            React Three Fiber
+            CSS3
           </ButtonLink>
         </li>
         <li>
           <ButtonLink className='bg-green' href='#'>
-            Drei
+            JavaScript
           </ButtonLink>
         </li>
       </ul>
