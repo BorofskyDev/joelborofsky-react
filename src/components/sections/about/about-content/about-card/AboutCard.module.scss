@@ -20,6 +20,7 @@
 
    @include respond(desktop) {
     margin: 0 1rem;
+    max-width: 28rem;
     min-height: 36rem;
     align-items: center;
     justify-content: center;
