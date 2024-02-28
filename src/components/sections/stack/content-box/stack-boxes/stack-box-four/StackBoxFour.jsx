@@ -4,10 +4,10 @@ import styles from './StackBoxFour.module.scss'
 
 function StackBoxFour() {
   return (
-    <StackContainer className={`bg-red ${styles.stackBoxFour}`}>
+    <StackContainer className={`bg-green ${styles.stackBoxFour}`}>
       <ul>
         <li>
-          <ButtonLink className='bg-green' href='#'>
+          <ButtonLink className='bg-red' href='#'>
             Figma
           </ButtonLink>
         </li>
@@ -32,7 +32,7 @@ function StackBoxFour() {
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-green' href='#'>
+          <ButtonLink className='bg-orange' href='#'>
             JavaScript
           </ButtonLink>
         </li>

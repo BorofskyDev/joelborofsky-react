@@ -1,162 +1,163 @@
 @use '../../../../../styles/utils/mixins/' as *;
 
 .projectCard {
-  height: 15em;
-  width: 100%;
-  margin: 0 auto;
-  border: var(--border-400);
-  border-radius: var(--br-600);
-  box-shadow: var(--box-shadow-400);
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas:
-    'image image links links'
-    'image image stack stack'
-    'image image desc desc';
+  
+  // height: 15em;
+  // width: 100%;
+  // margin: 0 auto;
+  // border: var(--border-400);
+  // border-radius: var(--br-600);
+  // box-shadow: var(--box-shadow-400);
+  // display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  // grid-template-rows: repeat(3, 1fr);
+  // grid-template-areas:
+  //   'image image links links'
+  //   'image image stack stack'
+  //   'image image desc desc';
 
-  @include respond(tab) {
-    height: 35em;
-    width: 30em;
-    box-shadow: var(--box-shadow-600);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-      'stack image image links'
-      'stack image image links'
-      'stack title title links'
-      'desc desc desc desc';
-  }
+  // @include respond(tab) {
+  //   height: 35em;
+  //   width: 30em;
+  //   box-shadow: var(--box-shadow-600);
+  //   grid-template-rows: repeat(4, 1fr);
+  //   grid-template-areas:
+  //     'stack image image links'
+  //     'stack image image links'
+  //     'stack title title links'
+  //     'desc desc desc desc';
+  // }
 }
 
 .cardImage {
-  position: relative;
-  grid-area: image;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  place-content: center;
-  border-top-left-radius: var(--br-500);
-  border-bottom-left-radius: var(--br-500);
-  border-right: var(--border-200);
-  background-color: hsl(var(--color-light));
+  // position: relative;
+  // grid-area: image;
+  // height: 100%;
+  // width: 100%;
+  // display: grid;
+  // place-content: center;
+  // border-top-left-radius: var(--br-500);
+  // border-bottom-left-radius: var(--br-500);
+  // border-right: var(--border-200);
+  // background-color: hsl(var(--color-light));
 
-  @include respond(tab) {
-    border-right: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
+  // @include respond(tab) {
+  //   border-right: none;
+  //   border-top-left-radius: 0;
+  //   border-bottom-left-radius: 0;
+  // }
 
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 75%;
-    width: 100%;
-    object-fit: cover;
-    border-bottom: var(--border-200);
+  // img {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 75%;
+  //   width: 100%;
+  //   object-fit: cover;
+  //   border-bottom: var(--border-200);
 
-    @include respond(tab) {
-      height: 90%;
-      border-bottom: none;
-    }
-  }
+  //   @include respond(tab) {
+  //     height: 90%;
+  //     border-bottom: none;
+  //   }
+  // }
 
-  h4 {
-    position: absolute;
-    bottom: 0;
-    height: 25%;
-    width: 100%;
-    font-family: var(--font-handwriting);
-    font-size: var(--fs-300);
-    text-align: center;
+  // h4 {
+  //   position: absolute;
+  //   bottom: 0;
+  //   height: 25%;
+  //   width: 100%;
+  //   font-family: var(--font-handwriting);
+  //   font-size: var(--fs-300);
+  //   text-align: center;
 
-    @include respond(tab) {
-      height: 10%;
-    }
-  }
+  //   @include respond(tab) {
+  //     height: 10%;
+  //   }
+  // }
 }
 
 .cardStack {
-  grid-area: stack;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  border-top: var(--border-200);
-  border-bottom: var(--border-200);
+  // grid-area: stack;
+  // width: 100%;
+  // height: 100%;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-wrap: wrap;
+  // border-top: var(--border-200);
+  // border-bottom: var(--border-200);
 
-  @include respond(tab) {
-    border-right: var(--border-300);
-    border-bottom: 0;
-    border-top: 0;
-    flex-direction: column;
-    justify-content: space-around;
-  }
+  // @include respond(tab) {
+  //   border-right: var(--border-300);
+  //   border-bottom: 0;
+  //   border-top: 0;
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  // }
 
-  & li {
-    margin: 0 1em;
-    font-size: var(--fs-300);
-    text-align: center;
-  }
+  // & li {
+  //   margin: 0 1em;
+  //   font-size: var(--fs-300);
+  //   text-align: center;
+  // }
 }
 
 .cardLinks {
-  grid-area: links;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5em;
+  // grid-area: links;
+  // width: 100%;
+  // height: 100%;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // gap: 0.5em;
 
-  @include respond(tab) {
-    border-left: var(--border-300);
-    flex-direction: column;
-    justify-content: space-around;
-  }
+  // @include respond(tab) {
+  //   border-left: var(--border-300);
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  // }
 
-  & a {
-    padding: 0.15em 0.25em;
-    border: var(--border-200);
-    border-radius: var(--br-900);
-    font-size: var(--fs-300);
-    box-shadow: var(--box-shadow-200);
-    color: hsl(var(--color-dark));
-    @include transitionMain;
+  // & a {
+  //   padding: 0.15em 0.25em;
+  //   border: var(--border-200);
+  //   border-radius: var(--br-900);
+  //   font-size: var(--fs-300);
+  //   box-shadow: var(--box-shadow-200);
+  //   color: hsl(var(--color-dark));
+  //   @include transitionMain;
 
-    @include respond(tab) {
-      padding: 0.5em 1em;
-    }
+  //   @include respond(tab) {
+  //     padding: 0.5em 1em;
+  //   }
 
-    @include respond(desktop) {
-      padding: 0.75em 1.5em;
-    }
+  //   @include respond(desktop) {
+  //     padding: 0.75em 1.5em;
+  //   }
 
-    &:hover,
-    &:focus {
-      box-shadow: var(--box-shadow-400);
-      transform: translate(-5%, -5%);
-    }
+  //   &:hover,
+  //   &:focus {
+  //     box-shadow: var(--box-shadow-400);
+  //     transform: translate(-5%, -5%);
+  //   }
 
-    &:active {
-      box-shadow: none;
-      transform: translate(0, 0);
-    }
-  }
+  //   &:active {
+  //     box-shadow: none;
+  //     transform: translate(0, 0);
+  //   }
+  // }
 }
 
 .cardDesc {
-  grid-area: desc;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  place-content: center;
-  text-align: center;
+  // grid-area: desc;
+  // width: 100%;
+  // height: 100%;
+  // display: grid;
+  // place-items: center;
+  // place-content: center;
+  // text-align: center;
 
-  @include respond(tab) {
-    border-top: var(--border-300);
-  }
+  // @include respond(tab) {
+  //   border-top: var(--border-300);
+  // }
 }
