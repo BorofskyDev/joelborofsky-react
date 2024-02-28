@@ -1,7 +1,9 @@
 import { getRandomBgClass } from '../getRandomBgClass'
 import styles from './ProjectCard.module.scss'
+import ProjectIcons from './project-icons/ProjectIcons'
 import LeftIndents from './project-indents/LeftIndents'
 import RightIndents from './project-indents/RightIndents'
+import ProjectLinks from './project-links/ProjectLinks'
 import ProjectTitle from './project-title/ProjectTitle'
 
 export default function ProjectCard({
@@ -27,16 +29,13 @@ export default function ProjectCard({
         <div>Image</div>
       </div>
       <div className={styles.bottomHalf}>
-        <div className={styles.linkContainer}>
-          <div>GitHub Repository</div>
-          <div>Live Site!</div>
-        </div>
-        <div className={styles.techContainer}>
-          <div>icon</div>
-          <div>icon</div>
-          <div>icon</div>
-          <div>icon</div>
-        </div>
+        <ProjectLinks
+          gitHubHref='#'
+          gitHubTitle="This Site's Repository!"
+          liveSiteHref='#'
+          liveSiteTitle="This Site's Live Site!"
+        />
+        <ProjectIcons />
       </div>
     </div>
     // <div className={cardClasses} key={id}>
