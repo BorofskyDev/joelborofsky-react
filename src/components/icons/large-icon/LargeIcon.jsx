@@ -8,7 +8,7 @@ export default function LargeIcon({ icon, viewBox, xmlns, className }) {
   return (
     <motion.div
       className={iconClasses}
-      initial={{ scale: 0, y: 250 }}
+      initial={{ scale: 0, y: 150 }}
       whileInView={{ rotate: 360, scale: 1, y: 0}}
       transition={{ type: 'spring', stiffness: 160, damping: 20 }}
     >
