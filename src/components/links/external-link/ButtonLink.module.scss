@@ -1,14 +1,13 @@
 @use '../../../styles/utils/mixins' as *;
 
 .buttonLink {
-    margin: 1em 2em;
-    padding: 0.3em 0.8em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: var(--spacing-200);
+    padding: var(--spacing-100) var(--spacing-200);
     border: var(--border-400);
     border-radius: var(--br-900);
     box-shadow: var(--box-shadow-200);
+    display: grid;
+    place-content: center;
     font-family: var(--font-link);
     color: var(--color-dark);
     font-weight: var(--fw-extra-bold);
@@ -17,17 +16,17 @@
     @include transitionMain;
 
     @include respond(smallDesktop) {
-        padding: 0.5em 1em;
+        padding: var(--spacing-200) var(--spacing-300);
     }
 
     @include respond(desktop) {
-        padding: 0.6em 1.2em;
-    
+       
+    padding-inline: var(--spacing-400);
     }
 
     &:hover, &:focus {
-        box-shadow: var(--box-shadow-600);
-        transform: translate(-5%, -5%);
+        box-shadow: var(--box-shadow-400);
+        transform: translate(-3%, -3%);
     }
 
     &:active {
