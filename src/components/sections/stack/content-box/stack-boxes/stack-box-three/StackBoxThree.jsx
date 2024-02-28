@@ -1,26 +1,37 @@
-import { ReactComponent as SassIcon } from '../../../../../../assets/icons/tech/sass.svg'
-import { ReactComponent as ThreeIcon } from '../../../../../../assets/icons/tech/threejs.svg'
-import { ReactComponent as TailwindIcon } from '../../../../../../assets/icons/tech/tailwind-css.svg'
-import { ReactComponent as StyledIcon } from '../../../../../../assets/icons/tech/styled-components.svg'
+import { icons } from '../../../../../icons/icons'
+import LargeIcon from '../../../../../icons/large-icon/LargeIcon'
 import StackContainer from '../../../stack-containers/StackContainer'
-import MediumIcon from '../../../../../icons/medium-icon/MediumIcon'
 import styles from './StackBoxThree.module.scss'
 
 function StackBoxThree() {
   return (
     <StackContainer className={`bg-blue ${styles.stackBoxThree}`}>
-      <MediumIcon className={`bg-pink ${styles.stackIcon1}`}>
-        <SassIcon className='fillVibrant2' />
-      </MediumIcon>
-      <MediumIcon className={`bg-red ${styles.stackIcon2}`}>
-        <ThreeIcon className='fillVibrant5' />
-      </MediumIcon>
-      <MediumIcon className={`bg-yellow ${styles.stackIcon3}`}>
-        <TailwindIcon className='fillVibrant3' />
-      </MediumIcon>
-      <MediumIcon className={`bg-green ${styles.stackIcon4}`}>
-        <StyledIcon className='fillVibrant4' />
-      </MediumIcon>
+      <LargeIcon
+        icon={icons.sass.path}
+        xmlns={icons.sass.xmlns}
+        viewBox={icons.sass.viewBox}
+        className={`${'bg-pink'} ${'fill-vibrant-pink'} ${styles.stackIcon1}`}
+      />
+      <LargeIcon
+        icon={icons.mongodb.path}
+        xmlns={icons.mongodb.xmlns}
+        viewBox={icons.mongodb.viewBox}
+        className={`${'bg-green'} ${'fill-vibrant-red'} ${styles.stackIcon2}`}
+      />
+      <LargeIcon
+        icon={icons.nodejs.path}
+        xmlns={icons.nodejs.xmlns}
+        viewBox={icons.nodejs.viewBox}
+        className={`${'bg-vibrant-green'} ${'fill-yellow'} ${
+          styles.stackIcon3
+        }`}
+      />
+      <LargeIcon
+        icon={icons.figma.path}
+        xmlns={icons.figma.xmlns}
+        viewBox={icons.figma.viewBox}
+        className={`${'bg-red'} ${'fill-vibrant-purple'} ${styles.stackIcon4}`}
+      />
     </StackContainer>
   )
 }
