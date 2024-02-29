@@ -6,7 +6,7 @@ import styles from './ProjectTopHalf.module.scss'
 
 export default function ProjectTopHalf({ title, src, alt }) {
   return (
-    <div className={styles.topHalf}>
+    <div className={styles.projectTopHalf}>
       <LeftIndents />
       <ProjectTitle>{title}</ProjectTitle>
       <RightIndents />

@@ -1,5 +1,16 @@
 @use '../../../../../../styles/utils/mixins' as *;
 
-.projectBottomhalf {
-    
+.projectBottomHalf {
+  display: flex;
+  z-index: 1;
+
+  & .contentDiv {
+    width: 100%;
+    margin: 0 auto;
+    padding: var(--spacing-400) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

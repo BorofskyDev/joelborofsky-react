@@ -22,28 +22,30 @@ export default function ProjectBottomHalf({
   iconFill,
 }) {
   return (
-    <div className={styles.bottomHalf}>
-      <ProjectLinks
-        gitHubHref={gitHubHref}
-        gitHubTitle={gitHubTitle}
-        liveSiteHref={liveSiteHref}
-        liveSiteTitle={liveSiteTitle}
-      />
-      <ProjectIcons
-        techIcon1={techIcon1}
-        xmlns1={xmlns1}
-        viewBox1={viewBox1}
-        techIcon2={techIcon2}
-        xmlns2={xmlns2}
-        viewBox2={viewBox2}
-        techIcon3={techIcon3}
-        xmlns3={xmlns3}
-        viewBox3={viewBox3}
-        decorativeIcon={decorativeIcon}
-        xmlns4={xmlns4}
-        viewBox4={viewBox4}
-        iconFill={iconFill}
-      />
+    <div className={styles.projectBottomHalf}>
+      <div className={styles.contentDiv}>
+        <ProjectLinks
+          gitHubHref={gitHubHref}
+          gitHubTitle={gitHubTitle}
+          liveSiteHref={liveSiteHref}
+          liveSiteTitle={liveSiteTitle}
+        />
+        <ProjectIcons
+          techIcon1={techIcon1}
+          xmlns1={xmlns1}
+          viewBox1={viewBox1}
+          techIcon2={techIcon2}
+          xmlns2={xmlns2}
+          viewBox2={viewBox2}
+          techIcon3={techIcon3}
+          xmlns3={xmlns3}
+          viewBox3={viewBox3}
+          decorativeIcon={decorativeIcon}
+          xmlns4={xmlns4}
+          viewBox4={viewBox4}
+          iconFill={iconFill}
+        />
+      </div>
     </div>
   )
 }

@@ -1,5 +1,20 @@
 @use '../../../../../../../styles/utils/mixins' as *;
 
-.projectIndents {
-    
+.leftIndents {
+  grid-column: 1/1;
+  @include indent;
+
+  div {
+    border-radius: 0 var(--br-900) var(--br-900) 0;
+  }
+}
+
+.rightIndents {
+    grid-column: 3/3;
+    place-self: flex-end;
+    @include indent;
+
+    div {
+      border-radius: var(--br-900) 0 0 var(--br-900) ;
+    }
 }
