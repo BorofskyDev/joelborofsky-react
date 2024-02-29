@@ -8,6 +8,9 @@
   flex-direction: column;
   gap: var(--spacing-100);
 
+  @include respond(smallDesktop) {
+    height: 0;
+  }
   
 
   div {
