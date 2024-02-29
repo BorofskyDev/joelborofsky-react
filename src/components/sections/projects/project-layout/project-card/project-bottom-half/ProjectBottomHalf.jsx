@@ -1,16 +1,12 @@
-import ProjectTopHalf from './project-top-half/ProjectTopHalf'
-import ProjectBottomHalf from './project-bottom-half/ProjectBottomHalf'
-import styles from './ProjectCard.module.scss'
+import ProjectIcons from './project-icons/ProjectIcons'
+import ProjectLinks from './project-links/ProjectLinks'
+import styles from './ProjectBottomHalf.module.scss'
 
-export default function ProjectCard({
-  title,
-  src,
-  alt,
+export default function ProjectBottomHalf({
   gitHubHref,
   gitHubTitle,
   liveSiteHref,
   liveSiteTitle,
-  className,
   techIcon1,
   xmlns1,
   viewBox1,
@@ -25,16 +21,15 @@ export default function ProjectCard({
   viewBox4,
   iconFill,
 }) {
-  const cardClasses = `${styles.projectCard} ${className} || ''`
-
   return (
-    <div className={cardClasses}>
-      <ProjectTopHalf title={title} src={src} alt={alt} />
-      <ProjectBottomHalf
+    <div className={styles.bottomHalf}>
+      <ProjectLinks
         gitHubHref={gitHubHref}
         gitHubTitle={gitHubTitle}
         liveSiteHref={liveSiteHref}
         liveSiteTitle={liveSiteTitle}
+      />
+      <ProjectIcons
         techIcon1={techIcon1}
         xmlns1={xmlns1}
         viewBox1={viewBox1}
