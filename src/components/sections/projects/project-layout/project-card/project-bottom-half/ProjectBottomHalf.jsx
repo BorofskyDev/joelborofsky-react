@@ -4,9 +4,7 @@ import styles from './ProjectBottomHalf.module.scss'
 
 export default function ProjectBottomHalf({
   gitHubHref,
-  gitHubTitle,
   liveSiteHref,
-  liveSiteTitle,
   techIcon1,
   xmlns1,
   viewBox1,
@@ -24,10 +22,8 @@ export default function ProjectBottomHalf({
   return (
     <div className={styles.projectBottomHalf}>
       <ProjectLinks
-        gitHubHref={gitHubHref}
-        gitHubTitle={gitHubTitle}
+      gitHubHref={gitHubHref}
         liveSiteHref={liveSiteHref}
-        liveSiteTitle={liveSiteTitle}
       />
       <ProjectIcons
         techIcon1={techIcon1}

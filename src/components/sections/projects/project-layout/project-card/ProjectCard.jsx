@@ -7,9 +7,7 @@ export default function ProjectCard({
   src,
   alt,
   gitHubHref,
-  gitHubTitle,
   liveSiteHref,
-  liveSiteTitle,
   className,
   techIcon1,
   xmlns1,
@@ -32,9 +30,7 @@ export default function ProjectCard({
       <ProjectTopHalf title={title} src={src} alt={alt} />
       <ProjectBottomHalf
         gitHubHref={gitHubHref}
-        gitHubTitle={gitHubTitle}
         liveSiteHref={liveSiteHref}
-        liveSiteTitle={liveSiteTitle}
         techIcon1={techIcon1}
         xmlns1={xmlns1}
         viewBox1={viewBox1}
