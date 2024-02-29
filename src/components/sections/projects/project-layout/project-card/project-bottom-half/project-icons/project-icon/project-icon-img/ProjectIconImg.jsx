@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import styles from './ProjectIconImg.module.scss'
 
 export default function ProjectIconImg({
@@ -10,8 +11,16 @@ export default function ProjectIconImg({
   const iconClasses = `${styles.projectIconImg} ${className || ''}`
 
   return (
-    <svg viewBox={viewBox} xmlns={xmlns} className={iconClasses}>
+    <motion.svg
+      viewBox={viewBox}
+      xmlns={xmlns}
+      className={iconClasses}
+      initial={{ scale: 0, y: 100 }}
+      whileInView={{ scale: 1, y: 0 }}
+      transition={{ type: 'spring', stiffness: 160, damping: 20 }}
+    >
       <path d={icon} className={iconFill} />
-    </svg>
+    </motion.svg>
   )
 }
+
