@@ -2,7 +2,8 @@
 
 .projectTopHalf {
     width: 100%;
-    padding: var(--spacing-600) 0;
+    padding: var(--spacing-400) 0;
+    padding-bottom: 0;
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-columns: 0.5fr 2fr 0.5fr;
