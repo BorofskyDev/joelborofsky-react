@@ -5,10 +5,10 @@
   margin: 0;
   padding: 4em 2em;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: var(--spacing-400);
   border-top: var(--border-600);
   border-bottom: var(--border-600);
 }

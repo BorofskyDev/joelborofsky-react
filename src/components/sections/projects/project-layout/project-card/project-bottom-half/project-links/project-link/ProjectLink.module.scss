@@ -1,5 +1,15 @@
 @use '../../../../../../../../styles/utils/mixins' as *;
 
 .projectLink {
-    
+    padding: var(--spacing-100) var(--spacing-300);
+    border-radius: var(--br-900);
+    box-shadow: inset 0.25em 0.25em 0.25em rgba(0,0,0,0.15);
+    background-color: hsl(var(--color-blue));
+
+    & a {
+        color: hsl(var(--color-dark));
+        font-size: var(--fs-300);
+        font-weight: var(--fw-medium-bold);
+
+    }
 }
