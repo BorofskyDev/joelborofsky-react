@@ -6,7 +6,7 @@ function FooterBlocks() {
     <ul className={`${style.footerBlocks} `}>
       <MediumContainer className='bg-red'>Developer</MediumContainer>
       <MediumContainer className='bg-blue'>Designer</MediumContainer>
-      <MediumContainer className='bg-pink'>Business</MediumContainer>
+      <MediumContainer className='bg-green'>Business</MediumContainer>
       <MediumContainer className='bg-yellow'>Decent Ole' Chap</MediumContainer>
     </ul>
   )

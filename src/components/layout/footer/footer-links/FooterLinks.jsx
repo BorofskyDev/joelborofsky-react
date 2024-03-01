@@ -5,7 +5,7 @@ import ButtonLink from '../../../links/external-link/ButtonLink'
 function FooterLinks() {
   return (
     <div className={style.footerLinks}>
-      <MediumContainer className='bg-red'>
+      <MediumContainer className='bg-orange'>
         <span>People That Helped Me Learn</span>
       </MediumContainer>
       <ul>
@@ -19,7 +19,7 @@ function FooterLinks() {
             Jonas Schmedtmann
           </ButtonLink>
         </li>
-        <ButtonLink href={`#`} className='bg-red'>
+        <ButtonLink href={`#`} className='bg-green'>
           Bruno Simon
         </ButtonLink>
         <li>
