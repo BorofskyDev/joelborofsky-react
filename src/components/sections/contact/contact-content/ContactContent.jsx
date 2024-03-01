@@ -5,7 +5,7 @@ import styles from './ContactContent.module.scss'
 
 function ContactContent() {
   return (
-    <div className={styles.contactContent}>
+    <div className={`${styles.contactContent} bg-violet`}>
       <SectionTitle className='bg-green'>Contact</SectionTitle>
       <MainHeading>Hello Again!</MainHeading>
       <LargeContainer className='bg-yellow'>Let's work together</LargeContainer>

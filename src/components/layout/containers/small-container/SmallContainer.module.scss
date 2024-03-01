@@ -13,7 +13,7 @@
   letter-spacing: 0.125em;
   font-size: var(--fs-400);
 
-  @include respond(desktop){
+  @include respond(desktop) {
     padding: var(--spacing-200) var(--spacing-300);
   }
 
@@ -22,10 +22,10 @@
     font-size: var(--fs-300);
     line-height: 95%;
     letter-spacing: -0.01rem;
-    transform: translate(105%, -55%) rotate(15deg) skew(-5deg);
+    transform: translate(2.5em, -55%) rotate(45deg) skew(-5deg);
 
-    @include respond(desktop){
-      transform: translate(185%, -55%) rotate(15deg) skew(-5deg);
+    @include respond(desktop) {
+      transform: translate(4em, 0) rotate(45deg) skew(-5deg);
     }
   }
 }
