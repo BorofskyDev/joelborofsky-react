@@ -1,0 +1,19 @@
+@use '../../../../../../styles/utils/mixins' as *;
+
+.projectImage {
+  grid-column: 2/2;
+  height: 100%;
+  width: 100%;
+  padding: var(--spacing-100);
+  background-color: hsl(var(--color-blue));
+  border-radius: var(--br-200);
+  border: var(--border-100);
+
+  & img {
+    width: 100%;
+    min-height: 8rem;
+    object-fit: cover;
+    border: var(--border-100);
+    border-radius: var(--br-200);
+  }
+}

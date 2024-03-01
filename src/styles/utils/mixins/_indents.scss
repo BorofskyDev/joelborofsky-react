@@ -9,7 +9,7 @@
   gap: var(--spacing-100);
 
   @include respond(smallDesktop) {
-    height: 0;
+    // height: 0;
   }
   
 

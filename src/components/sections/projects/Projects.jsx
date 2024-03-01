@@ -1,5 +1,5 @@
 import SectionTitle from '../../headings/section-title/SectionTitle'
-import ProjectCard from './project-layout/project-card/ProjectCard'
+import ProjectCard from './project-card/ProjectCard'
 import { icons } from '../../icons/icons'
 import firstProjectImg from '../../../assets/img/projects/main-site.jpg'
 import styles from './Projects.module.scss'
