@@ -10,4 +10,14 @@
     background-color: hsl(var(--color-blue));
     font-size: var(--fs-600);
     font-weight: var(--fw-medium-bold);
+
+    @include respond(smallDesktop) {
+        grid-row: 2/2;
+        padding-inline: var(--spacing-400);
+        border-radius: 0 0 15rem var(--br-400);
+        box-shadow: none;
+        border: var(--border-100);
+        border-top: none;
+        place-content: flex-start;
+    }
 }

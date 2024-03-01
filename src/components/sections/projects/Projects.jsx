@@ -58,7 +58,7 @@ export default function Projects({ className }) {
           iconFill='fill-vibrant-red'
         />
         <ProjectCard
-          className='bg-vibrant-pink'
+          className='bg-vibrant-green'
           title='This Site!'
           src={firstProjectImg}
           alt='hero section of this website'
@@ -78,7 +78,7 @@ export default function Projects({ className }) {
           decorativeIcon={icons.cat.path}
           xmlns4={icons.cat.xmlns}
           viewBox4={icons.cat.viewBox}
-          iconFill='fill-vibrant-pink'
+          iconFill='fill-vibrant-green'
         />
       </div>
     </section>

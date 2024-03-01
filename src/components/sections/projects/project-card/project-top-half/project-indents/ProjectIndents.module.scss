@@ -50,6 +50,10 @@
   place-self: flex-end;
   @include indent;
 
+  @include respond(smallDesktop) {
+    display: none;
+  }
+
   div {
     border-radius: var(--br-900) 0 0 var(--br-900);
   }

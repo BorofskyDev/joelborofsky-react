@@ -21,10 +21,7 @@ export default function ProjectBottomHalf({
 }) {
   return (
     <div className={styles.projectBottomHalf}>
-      <ProjectLinks
-      gitHubHref={gitHubHref}
-        liveSiteHref={liveSiteHref}
-      />
+      <ProjectLinks gitHubHref={gitHubHref} liveSiteHref={liveSiteHref} />
       <ProjectIcons
         techIcon1={techIcon1}
         xmlns1={xmlns1}

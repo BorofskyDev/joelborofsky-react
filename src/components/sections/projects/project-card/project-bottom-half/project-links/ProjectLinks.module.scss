@@ -6,4 +6,8 @@
     align-items: center;
     justify-content: center;
     gap: var(--spacing-200);
+
+    @include respond(smallDesktop) {
+        transform: rotate(-45deg) translate(0, 2rem)
+    }
 }
