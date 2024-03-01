@@ -1,3 +1,5 @@
+@use '../../../styles/utils/mixins' as *;
+
 .projects {
   position: relative;
   height: 100%;
@@ -16,5 +18,10 @@
     align-items: center;
     flex-wrap: wrap;
     gap: var(--spacing-400);
+
+    @include respond(smallDesktop) {
+      gap: var(--spacing-800);
+    }
+    
   }
 }
