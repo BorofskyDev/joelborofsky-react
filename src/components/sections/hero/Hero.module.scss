@@ -10,11 +10,9 @@
 
   @include respond(tab) {
     height: 100%;
-    // margin-top: 3em;
   }
 
   @include respond(smallDesktop) {
     flex-direction: row;
-    // margin-top: -10em;
   }
 }
