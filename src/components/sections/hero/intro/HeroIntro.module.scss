@@ -5,12 +5,12 @@
   width: 100%;
   margin-top: 1em;
   padding: 4em 2em;
+  border-bottom: var(--border-200);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 1em;
-  border-bottom: var(--border-600);
   background-color: hsl(var(--color-blue));
 
   @include respond(tab) {
@@ -21,7 +21,7 @@
   @include respond(smallDesktop) {
     width: 50%;
     height: 100vh;
-    border-right: var(--border-600);
+    border-right: var(--border-200);
     border-bottom: none;
   }
 

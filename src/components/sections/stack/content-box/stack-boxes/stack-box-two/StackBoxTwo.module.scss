@@ -1,7 +1,8 @@
 @use '../../../../../../styles/utils/mixins/' as *;
 
 .stackBoxTwo {
-  border-bottom: var(--border-400);
+  border-top: var(--border-200);
+  border-bottom: var(--border-200);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -26,5 +27,10 @@
   
   & .stackIcon4 {
     grid-area: icon4;
+  }
+
+  @include respond(tab) {
+    border-top: none;
+    border-left: var(--border-200);
   }
 }

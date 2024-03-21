@@ -3,11 +3,11 @@
 .stackBoxFour {
     grid-area: stack-4;
     padding: 2em 1em;
-    border-bottom: var(--border-400);
-    border-top: var(--border-400);
+    border-bottom: var(--border-200);
+    border-top: var(--border-200);
 
     @include respond(tab) {
-        border-top: none;
         border-bottom: none;
+        border-left: var(--border-200);
     }
 }
