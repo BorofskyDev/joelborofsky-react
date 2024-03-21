@@ -6,7 +6,7 @@ import styles from './Stack.module.scss'
 
 function Stack() {
   return (
-    <section className={styles.stack}>
+    <section id='skills' className={styles.stack}>
         <StackBoxOne />
         <StackBoxTwo />
         <StackBoxThree />

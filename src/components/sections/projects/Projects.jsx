@@ -8,7 +8,7 @@ export default function Projects({ className }) {
   const sectionClasses = `${styles.projects} ${className} || ''`
 
   return (
-    <section className={`${sectionClasses}`}>
+    <section id='projects' className={`${sectionClasses}`}>
       <SectionTitle className=' grid-title bg-red'>Projects</SectionTitle>
       <div className={styles.projectsContainer}>
         <ProjectCard

@@ -4,7 +4,7 @@ import styles from './Contact.module.scss'
 
 function Contact() {
   return (
-    <section className={`${styles.contact} bg-orange`}>
+    <section id='contact' className={`${styles.contact} bg-orange`}>
       <ContactContent />
       <ContactLinks />
     </section>
