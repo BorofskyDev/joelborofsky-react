@@ -3,6 +3,7 @@
 .heroPicture {
   height: 50vh;
   width: 100%;
+  border-top: var(--border-200);
   background-color: hsl(var(--color-pink));
   display: grid;
   place-items: center;
@@ -17,7 +18,7 @@
   @include respond(smallDesktop) {
     height: 100vh;
     width: 50%;
-    border-left: var(--border-600);
+    border-left: var(--border-200);
   }
 
   @include respond(desktop) {

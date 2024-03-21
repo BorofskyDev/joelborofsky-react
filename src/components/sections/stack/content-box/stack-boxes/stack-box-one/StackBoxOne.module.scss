@@ -3,9 +3,9 @@
 .stackBoxOne {
     grid-area: stack-1;
     padding: 2em 1em;
-    border-bottom: var(--border-400);
+    border-bottom: var(--border-200);
 
     @include respond(tab) {
-        border-right: var(--border-400);
+        border-right: var(--border-200);
     }
 }

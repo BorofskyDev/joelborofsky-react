@@ -8,8 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: var(--border-600);
-    border-bottom: var(--border-600);
+    border-top: var(--border-400);
+    border-bottom: var(--border-400);
 
     @include respond(smallDesktop) {
         flex-direction: row;
