@@ -15,6 +15,16 @@ function FooterLinks() {
           </ButtonLink>
         </li>
         <li>
+          <ButtonLink href='https://coder-coder.com/' className='bg-red'>
+            Coder Coder
+          </ButtonLink>
+        </li>
+        <li>
+          <ButtonLink href='https://www.kevinpowell.co/' className='bg-violet'>
+            Kevin Powell
+          </ButtonLink>
+        </li>
+        <li>
           <ButtonLink href='https://codingheroes.io/' className='bg-pink'>
             Coding Heroes
           </ButtonLink>
@@ -28,16 +38,6 @@ function FooterLinks() {
             className='bg-yellow'
           >
             WebDev Simplified
-          </ButtonLink>
-        </li>
-        <li>
-          <ButtonLink href='https://www.kevinpowell.co/' className='bg-violet'>
-            Kevin Powell
-          </ButtonLink>
-        </li>
-        <li>
-          <ButtonLink href='https://coder-coder.com/' className='bg-red'>
-            Coder Coder
           </ButtonLink>
         </li>
       </ul>
