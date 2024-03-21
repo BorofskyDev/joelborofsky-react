@@ -9,11 +9,15 @@
   @include respond(tab) {
     position: relative;
     width: 100vw;
-    padding: var(--spacing-100) 0; 
+    padding: var(--spacing-100) var(--spacing-200); 
     display: grid;
     grid-row: 1 / 1;
     place-content: center;
-    font-size: var(--fs-600);
+    font-size: var(--fs-700);
     text-align: center;
+  }
+
+  @include respond(desktop){
+    font-size: var(--fs-800);
   }
 }
