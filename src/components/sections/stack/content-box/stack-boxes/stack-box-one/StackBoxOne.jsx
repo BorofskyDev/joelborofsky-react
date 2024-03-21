@@ -9,27 +9,27 @@ function StackBoxOne() {
       <SectionTitle className='bg-yellow'>Stack</SectionTitle>
       <ul>
         <li>
-          <ButtonLink className='bg-blue' href='#'>
+          <ButtonLink className='bg-blue' href='https://nextjs.org/'>
             Nextjs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-red' href='#'>
+          <ButtonLink className='bg-red' href='https://nodejs.org/en'>
             Nodejs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-orange' href='#'>
+          <ButtonLink className='bg-orange' href='https://expressjs.com/'>
             Expressjs
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-yellow' href='#'>
+          <ButtonLink className='bg-yellow' href='https://react.dev/'>
             React
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-green' href='#'>
+          <ButtonLink className='bg-green' href='https://www.mongodb.com/'>
             MongoDB
           </ButtonLink>
         </li>

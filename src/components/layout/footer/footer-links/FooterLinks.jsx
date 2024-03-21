@@ -10,26 +10,34 @@ function FooterLinks() {
       </MediumContainer>
       <ul>
         <li>
-          <ButtonLink href={`#`} className='bg-blue'>
+          <ButtonLink href='https://scrimba.com' className='bg-blue'>
             Scrimba
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink href={`#`} className='bg-pink'>
-            Jonas Schmedtmann
+          <ButtonLink href='https://codingheroes.io/' className='bg-pink'>
+            Coding Heroes
           </ButtonLink>
         </li>
-        <ButtonLink href={`#`} className='bg-green'>
+        <ButtonLink href='https://bruno-simon.com/' className='bg-green'>
           Bruno Simon
         </ButtonLink>
         <li>
-          <ButtonLink href={`#`} className='bg-yellow'>
+          <ButtonLink
+            href='https://courses.webdevsimplified.com/'
+            className='bg-yellow'
+          >
             WebDev Simplified
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink href={`#`} className='bg-violet'>
+          <ButtonLink href='https://www.kevinpowell.co/' className='bg-violet'>
             Kevin Powell
+          </ButtonLink>
+        </li>
+        <li>
+          <ButtonLink href='https://coder-coder.com/' className='bg-red'>
+            Coder Coder
           </ButtonLink>
         </li>
       </ul>

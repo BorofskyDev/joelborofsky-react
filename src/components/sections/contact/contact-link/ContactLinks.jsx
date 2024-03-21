@@ -14,8 +14,8 @@ function ContactLinks() {
         alt='Joel with a falcon on his shoulder and two birds on his right arm'
         imageBg='bg-vibrant-purple'
         smallContainerBg='bg-violet'
-        title="Bird Attorney"
-        note="not a bird attorney"
+        title='Bird Attorney'
+        note='not a bird attorney'
         iconBg1='bg-vibrant-green'
         iconFill1='fill-vibrant-purple'
         icon1={icons.dinosaur.path}
@@ -32,27 +32,36 @@ function ContactLinks() {
       </MediumHeader>
       <ul>
         <li>
-          <ButtonLink className='bg-red' href='#'>
+          <ButtonLink className='bg-red' href='https://github.com/BorofskyDev'>
             My GitHub
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-yellow' href='#'>
+          <ButtonLink
+            className='bg-yellow'
+            href='https://codepen.io/borofskyDev'
+          >
             My CodePen
           </ButtonLink>
         </li>
         <li>
-          <ButtonLink className='bg-pink' href='#'>
+          <ButtonLink
+            className='bg-pink'
+            href='https://www.linkedin.com/in/joelborofsky/'
+          >
             My LinkedIn
           </ButtonLink>
         </li>
-        <li>
+        {/* <li>
           <ButtonLink className='bg-blue' href='#'>
             My Freelance Site
           </ButtonLink>
-        </li>
+        </li> */}
         <li>
-          <ButtonLink className='bg-green' href='#'>
+          <ButtonLink
+            className='bg-green'
+            href='mailto:joelborofskydev@gmail.com'
+          >
             My Email
           </ButtonLink>
         </li>
