@@ -25,7 +25,7 @@ function Header() {
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div initial='closed' animate='open' exit='closed'>
-            <MobileNavMenu />
+            <MobileNavMenu handleMenuToggle={handleMenuToggle} />
           </motion.div>
         )}
       </AnimatePresence>

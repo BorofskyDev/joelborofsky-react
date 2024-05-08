@@ -1,8 +1,8 @@
 import styles from './MenuLink.module.scss'
 
-function MenuLink({ content, ...props }) {
+function MenuLink({ content, handleMenuToggle, ...props }) {
   return (
-    <a {...props} className={styles.menuLink}>
+    <a {...props} onClick={handleMenuToggle} className={styles.menuLink}>
       <span>{content}</span>
     </a>
   )

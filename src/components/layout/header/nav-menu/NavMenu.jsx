@@ -1,14 +1,39 @@
 import MenuLink from '../../../links/menu-link/MenuLink'
 import styles from './NavMenu.module.scss'
 
-export default function NavMenu() {
-    return (
-      <ul className={styles.navMenu}>
-        <MenuLink href='#home' data-text='Home' content='Home' />
-        <MenuLink href='#about' data-text='About' content='About' />
-        <MenuLink href='#skills' data-text='Skills' content='Skills' />
-        <MenuLink href='#projects' data-text='Projects' content='Projects' />
-        <MenuLink href='#contact' data-text='Contact' content='Contact' />
-      </ul>
-    )
+export default function NavMenu({ handleMenuToggle }) {
+  return (
+    <ul className={styles.navMenu}>
+      <MenuLink
+        href='#home'
+        data-text='Home'
+        content='Home'
+        handleMenuToggle={handleMenuToggle}
+      />
+      <MenuLink
+        href='#about'
+        data-text='About'
+        content='About'
+        handleMenuToggle={handleMenuToggle}
+      />
+      <MenuLink
+        href='#skills'
+        data-text='Skills'
+        content='Skills'
+        handleMenuToggle={handleMenuToggle}
+      />
+      <MenuLink
+        href='#projects'
+        data-text='Projects'
+        content='Projects'
+        handleMenuToggle={handleMenuToggle}
+      />
+      <MenuLink
+        href='#contact'
+        data-text='Contact'
+        content='Contact'
+        handleMenuToggle={handleMenuToggle}
+      />
+    </ul>
+  )
 }

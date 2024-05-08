@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import styles from './MobileNavMenu.module.scss'
 import NavMenu from '../nav-menu/NavMenu'
@@ -19,10 +20,16 @@ const menuVariants = {
   },
 }
 
-export default function MobileNavMenu() {
+export default function MobileNavMenu({ handleMenuToggle }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleMenu = () => setIsOpen(!isOpen)
+
+  const closeMenu = () => setIsOpen(false)
+
   return (
     <motion.nav className={styles.mobileMenu} variants={menuVariants}>
-      <NavMenu />
+      <NavMenu handleMenuToggle={handleMenuToggle} />
     </motion.nav>
   )
 }
